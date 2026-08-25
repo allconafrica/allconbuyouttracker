@@ -22,14 +22,15 @@ if not sheet_id and response.data:
     sheet_id = response.data[0].id
 
 sheet = smart.Sheets.get_sheet(sheet_id)
+
+# Map column names dynamically
 cols = {col.title: col.id for col in sheet.columns}
 
 projects = []
 current_project = None
-last_known_owner = "UNASSIGNED"
+active_owner = "UNASSIGNED"
 
 OWNERS = ["NORMAN", "NORLENE"]
-AC_PATTERN = re.compile(r'\bAC\d+', re.IGNORECASE)
 
 def determine_status_color(item):
     comments = str(item.get("comments", "")).upper()
@@ -48,6 +49,13 @@ def determine_status_color(item):
 
 for row in sheet.rows:
     cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
+    row_text = " ".join([str(v) for v in cell_values.values()]).upper()
+
+    # Track owner if detected in any column of the row
+    for o in OWNERS:
+        if o in row_text:
+            active_owner = o
+            break
 
     primary_val = str(cell_values.get(cols.get("Primary Column"), "")).strip()
     supplier_val = str(cell_values.get(cols.get("SUPPLIER"), "")).strip()
@@ -55,50 +63,34 @@ for row in sheet.rows:
     if not primary_val and not supplier_val:
         continue
 
-    # Check for Owner
-    detected_owner = None
-    if supplier_val.upper() in OWNERS:
-        detected_owner = supplier_val.upper()
-    else:
-        for o in OWNERS:
-            if o in primary_val.upper():
-                detected_owner = o
-                break
+    # Header Detection: Contains "AC" in Primary Column or Supplier Column
+    is_ac_header = "AC" in primary_val.upper() or "AC" in supplier_val.upper()
 
-    if detected_owner:
-        last_known_owner = detected_owner
-
-    has_ac = bool(AC_PATTERN.search(primary_val))
-    is_header = detected_owner is not None or has_ac
-
-    if is_header:
-        # Save previous project block if populated
+    if is_ac_header:
         if current_project and current_project["items"]:
             projects.append(current_project)
-            current_project = None
 
-        ac_matches = AC_PATTERN.findall(primary_val)
-        ac_str = primary_val if has_ac else ""
+        # Preserve exact full string without regex splitting
+        raw_ac = primary_val if "AC" in primary_val.upper() else supplier_val
+        raw_title = supplier_val if "AC" in primary_val.upper() else primary_val
 
-        # Distinguish project name from job number
-        proj_name = primary_val if not has_ac else ""
-        if not proj_name and detected_owner and supplier_val.upper() in OWNERS:
-            proj_name = primary_val
+        # Clean title if it matches owner name
+        if raw_title.upper() in OWNERS:
+            raw_title = ""
 
         current_project = {
-            "owner": detected_owner or last_known_owner,
-            "project_name": proj_name,
-            "ac_number": ac_str,
+            "owner": active_owner,
+            "ac_number": raw_ac,
+            "project_name": raw_title,
             "items": []
         }
     elif current_project:
-        # Fill missing project name/AC number from adjacent header rows
-        if not current_project["project_name"] and not has_ac and primary_val:
-            current_project["project_name"] = primary_val
-            continue
-        elif not current_project["ac_number"] and has_ac:
-            current_project["ac_number"] = primary_val
-            continue
+        # If header had no project name, capture first descriptive text row
+        if not current_project["project_name"] and primary_val and "AC" not in primary_val.upper():
+            # Check if line looks like a project title rather than a component item
+            if not cell_values.get(cols.get("PO NR"), "") and not cell_values.get(cols.get("Date of PO"), ""):
+                current_project["project_name"] = primary_val
+                continue
 
         item = {
             "component": primary_val,
@@ -117,14 +109,12 @@ for row in sheet.rows:
 if current_project and current_project["items"]:
     projects.append(current_project)
 
-# Post-processing cleanup for headers
+# Fallback cleanups
 for p in projects:
-    if not p["project_name"] and p["ac_number"]:
+    if not p["project_name"]:
         p["project_name"] = "Project " + p["ac_number"]
-    elif not p["ac_number"]:
-        p["ac_number"] = "NO AC"
 
 with open("projects_data.json", "w") as f:
     json.dump(projects, f, indent=2)
 
-print(f"Successfully processed {len(projects)} projects.")
+print(f"Successfully exported {len(projects)} grouped project blocks.")
