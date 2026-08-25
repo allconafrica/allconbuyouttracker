@@ -1,0 +1,29 @@
+name: Daily Buyout Tracker Digest
+
+on:
+  schedule:
+    # 05:00 UTC = 07:00 SAST (UTC+2)
+    - cron: '0 5 * * *'
+  workflow_dispatch:
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: pip install smartsheet-python-sdk
+
+      - name: Run Daily Notification Script
+        env:
+          SMARTSHEET_TOKEN: ${{ secrets.SMARTSHEET_TOKEN }}
+          SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+        run: python send_notifications.py
