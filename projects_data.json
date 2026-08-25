@@ -13053,7 +13053,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "collecting 26/08/",
         "status_color": "orange"
       },
       {
@@ -13873,6 +13873,111 @@
       },
       {
         "component": "Vesconite bushes",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "LAR MIL25.008-066 - TB SLIDE FRAME",
+    "ac_number": "AC2945",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MOTHEO SPA26.349 - FEED SPOUT SPARE",
+    "ac_number": "AC2946",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "RUBBER LINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "FASTENERS",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "SPA420-001 - PERIPHERAL FELT SEAL",
+    "ac_number": "AC2944",
+    "items": [
+      {
+        "component": "FELT SEAL",
         "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
