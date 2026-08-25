@@ -5664,19 +5664,14 @@
         "followed_up": false,
         "comments": "",
         "status_color": "green"
-      },
-      {
-        "component": "Cup washers & Rubber plugs",
-        "supplier": "TEE engineering",
-        "supplier_contact": "Jan",
-        "po_nr": "PO15617",
-        "date_po": "2026-01-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "MOVED TO AC2677",
-        "status_color": "green"
-      },
+      }
+    ]
+  },
+  {
+    "owner": "UNASSIGNED",
+    "project_name": "O RING",
+    "ac_number": "MOVED TO AC2677",
+    "items": [
       {
         "component": "Liner bolts",
         "supplier": "Impact",
@@ -7816,6 +7811,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "syc",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "syc",
+        "status_color": "white"
       }
     ]
   },
@@ -10230,6 +10237,18 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      },
+      {
+        "component": "Flingerings",
+        "supplier": "steelcorp",
+        "supplier_contact": "Michael",
+        "po_nr": "PO18306",
+        "date_po": "2026-08-25",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -10834,13 +10853,13 @@
         "component": "SQR TUBE  Rolling",
         "supplier": "Zuidersma",
         "supplier_contact": "Basie",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18305",
+        "date_po": "2026-08-25",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Sch40 Pipe",
@@ -11176,20 +11195,14 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
-      },
-      {
-        "component": "25NB pipe",
-        "supplier": "in stock",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "stock left from DRD - AC2645 - Bongani to mark 19/05/26",
-        "status_color": "white"
       }
     ]
+  },
+  {
+    "owner": "UNASSIGNED",
+    "project_name": "Machining",
+    "ac_number": "stock left from DRD - AC2645 - Bongani to mark 19/05/26",
+    "items": []
   },
   {
     "owner": "UNASSIGNED",
@@ -12876,14 +12889,14 @@
       {
         "component": "Rolling raincovers",
         "supplier": "Zuiderma",
-        "supplier_contact": "WFQ",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "Basie",
+        "po_nr": "PO18305",
+        "date_po": "2026-08-25",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Threaded rod for studs",
@@ -13440,14 +13453,14 @@
       {
         "component": "Rolling angles",
         "supplier": "Zuidersma",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "Basie",
+        "po_nr": "PO18305",
+        "date_po": "2026-08-25",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
