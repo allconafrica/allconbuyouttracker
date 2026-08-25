@@ -1,5 +1,4 @@
 import os
-import re
 import json
 import smartsheet
 
@@ -22,13 +21,11 @@ if not sheet_id and response.data:
     sheet_id = response.data[0].id
 
 sheet = smart.Sheets.get_sheet(sheet_id)
-
-# Map column names dynamically
 cols = {col.title: col.id for col in sheet.columns}
 
 projects = []
 current_project = None
-active_owner = "UNASSIGNED"
+pending_project_name = ""
 
 OWNERS = ["NORMAN", "NORLENE"]
 
@@ -49,13 +46,6 @@ def determine_status_color(item):
 
 for row in sheet.rows:
     cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
-    row_text = " ".join([str(v) for v in cell_values.values()]).upper()
-
-    # Track owner if detected in any column of the row
-    for o in OWNERS:
-        if o in row_text:
-            active_owner = o
-            break
 
     primary_val = str(cell_values.get(cols.get("Primary Column"), "")).strip()
     supplier_val = str(cell_values.get(cols.get("SUPPLIER"), "")).strip()
@@ -63,35 +53,40 @@ for row in sheet.rows:
     if not primary_val and not supplier_val:
         continue
 
-    # Header Detection: Contains "AC" in Primary Column or Supplier Column
-    is_ac_header = "AC" in primary_val.upper() or "AC" in supplier_val.upper()
+    # Detect Owner
+    detected_owner = "UNASSIGNED"
+    if supplier_val.upper() in OWNERS:
+        detected_owner = supplier_val.upper()
+    elif primary_val.upper() in OWNERS:
+        detected_owner = primary_val.upper()
 
-    if is_ac_header:
+    # Case 1: Row above AC containing Project Name (e.g. MARMATO - SM TROMMEL FRAME)
+    if detected_owner != "UNASSIGNED" or (primary_val and "AC" not in primary_val.upper() and not supplier_val and not cell_values.get(cols.get("PO NR"), "")):
+        pending_project_name = primary_val
+        if detected_owner != "UNASSIGNED":
+            active_owner = detected_owner
+        else:
+            active_owner = "UNASSIGNED"
+        continue
+
+    # Case 2: Row containing AC Number (e.g. AC2942)
+    if "AC" in primary_val.upper() or "AC" in supplier_val.upper():
         if current_project and current_project["items"]:
             projects.append(current_project)
 
-        # Preserve exact full string without regex splitting
-        raw_ac = primary_val if "AC" in primary_val.upper() else supplier_val
-        raw_title = supplier_val if "AC" in primary_val.upper() else primary_val
-
-        # Clean title if it matches owner name
-        if raw_title.upper() in OWNERS:
-            raw_title = ""
+        ac_str = primary_val if "AC" in primary_val.upper() else supplier_val
 
         current_project = {
-            "owner": active_owner,
-            "ac_number": raw_ac,
-            "project_name": raw_title,
+            "owner": active_owner if 'active_owner' in locals() else "UNASSIGNED",
+            "project_name": pending_project_name if pending_project_name else ac_str,
+            "ac_number": ac_str,
             "items": []
         }
-    elif current_project:
-        # If header had no project name, capture first descriptive text row
-        if not current_project["project_name"] and primary_val and "AC" not in primary_val.upper():
-            # Check if line looks like a project title rather than a component item
-            if not cell_values.get(cols.get("PO NR"), "") and not cell_values.get(cols.get("Date of PO"), ""):
-                current_project["project_name"] = primary_val
-                continue
+        pending_project_name = "" # Reset for next project
+        continue
 
+    # Case 3: Standard Component Rows (e.g. PLATE MATERIAL, STRUCTURAL MATERIAL)
+    if current_project:
         item = {
             "component": primary_val,
             "supplier": supplier_val,
@@ -109,12 +104,8 @@ for row in sheet.rows:
 if current_project and current_project["items"]:
     projects.append(current_project)
 
-# Fallback cleanups
-for p in projects:
-    if not p["project_name"]:
-        p["project_name"] = "Project " + p["ac_number"]
-
+# Output preserved sheet order directly
 with open("projects_data.json", "w") as f:
     json.dump(projects, f, indent=2)
 
-print(f"Successfully exported {len(projects)} grouped project blocks.")
+print(f"Exported {len(projects)} projects in original Smartsheet order.")
