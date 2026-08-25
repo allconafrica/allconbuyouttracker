@@ -10855,11 +10855,11 @@
         "supplier_contact": "Basie",
         "po_nr": "PO18305",
         "date_po": "2026-08-25",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Sch40 Pipe",
@@ -12892,11 +12892,11 @@
         "supplier_contact": "Basie",
         "po_nr": "PO18305",
         "date_po": "2026-08-25",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Threaded rod for studs",
@@ -13456,11 +13456,11 @@
         "supplier_contact": "Basie",
         "po_nr": "PO18305",
         "date_po": "2026-08-25",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
