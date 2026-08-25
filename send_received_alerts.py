@@ -1,16 +1,29 @@
 import os
 import re
+import json
 import smtplib
-from datetime import datetime, timezone, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smartsheet
 
+# Configuration
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 SENDER_EMAIL = os.environ.get("SMTP_EMAIL")
 SENDER_PASSWORD = os.environ.get("SMTP_PASSWORD")
 NORMAN_EMAIL = "norman@allconafrica.co.za"
+
+LOG_FILE = "received_log.json"
+
+# Load already notified item IDs
+if os.path.exists(LOG_FILE):
+    with open(LOG_FILE, "r") as f:
+        try:
+            notified_items = set(json.load(f))
+        except json.JSONDecodeError:
+            notified_items = set()
+else:
+    notified_items = set()
 
 smart = smartsheet.Smartsheet(os.environ.get("SMARTSHEET_TOKEN"))
 target_sheet_name = "ALLCON PROJECTS BUY OUT LIST"
@@ -28,12 +41,9 @@ def get_val(cell_map, col_name):
 AC_REGEX = re.compile(r'\bAC\s*\d+', re.IGNORECASE)
 OWNERS = ["NORMAN", "NORLENE"]
 
-now = datetime.now(timezone.utc)
-# Look back window: modified within the last 30 minutes
-LOOKBACK_WINDOW = timedelta(minutes=30)
-
 all_rows = list(sheet.rows)
 received_projects = []
+newly_notified = []
 
 for idx, row in enumerate(all_rows):
     cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
@@ -72,7 +82,7 @@ for idx, row in enumerate(all_rows):
         if project_owner.upper() != "NORMAN":
             continue
 
-        # Scan Downward for newly received items
+        # Scan Downward for component items
         items = []
         down_idx = idx + 1
         while down_idx < len(all_rows):
@@ -96,15 +106,16 @@ for idx, row in enumerate(all_rows):
                 date_received = get_val(down_cells, "DATE RECEIVED")
                 po_nr = get_val(down_cells, "PO NR")
 
-                row_mod_date = down_row.modified_at or row.modified_at
+                # Unique Identifier for tracking
+                item_key = f"{ac_number}_{component}_{down_row.id}"
 
-                # Target items marked RECEIVED recently
-                if received and row_mod_date and (now - row_mod_date) <= LOOKBACK_WINDOW:
+                if received and item_key not in notified_items:
                     items.append({
                         "component": component,
                         "po_nr": po_nr or "N/A",
                         "date_received": date_received or "Today"
                     })
+                    newly_notified.append(item_key)
 
             down_idx += 1
 
@@ -115,7 +126,7 @@ for idx, row in enumerate(all_rows):
                 "items": items
             })
 
-# --- SEND RECEIVED NOTIFICATION ---
+# --- SEND EMAIL & SAVE LOG ---
 if received_projects:
     html_body = """
     <html>
@@ -183,4 +194,9 @@ if received_projects:
         server.login(SENDER_EMAIL, SENDER_PASSWORD)
         server.send_message(msg)
 
-    print(f"Received alert email sent to {NORMAN_EMAIL}.")
+    # Save newly notified items back to json
+    notified_items.update(newly_notified)
+    with open(LOG_FILE, "w") as f:
+        json.dump(list(notified_items), f, indent=2)
+
+    print(f"Received alert sent to {NORMAN_EMAIL} for {len(newly_notified)} items.")
