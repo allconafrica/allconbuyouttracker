@@ -21,23 +21,20 @@
     body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-dark); color: var(--text-main); margin: 0; padding: 25px; }
     h1 { margin-top: 0; }
     
-    .toolbar { display: flex; gap: 15px; flex-wrap: wrap; margin-bottom: 25px; align-items: center; }
-    .controls { display: flex; gap: 10px; }
-    button { background: #2a2a2a; color: #fff; border: 1px solid #444; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-weight: bold; }
-    button.active { background: #444; border-color: #777; }
-    button:hover { background: #333; }
+    .toolbar { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 25px; align-items: center; }
 
-    .search-input {
+    select, .search-input {
       background: #1e1e1e;
       border: 1px solid #444;
       color: #fff;
-      padding: 10px 15px;
+      padding: 10px 14px;
       border-radius: 6px;
-      min-width: 280px;
       font-size: 0.95rem;
       outline: none;
     }
-    .search-input:focus { border-color: var(--norman-blue); }
+    select:focus, .search-input:focus { border-color: var(--norman-blue); }
+
+    .search-input { min-width: 260px; flex-grow: 1; }
 
     .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
     .card { background: var(--card-bg); border-radius: 10px; padding: 20px; border: 1px solid #2d2d2d; cursor: pointer; transition: transform 0.15s, border-color 0.15s; }
@@ -84,12 +81,22 @@
   <h1>ALLCON BUYOUT PORTAL</h1>
   
   <div class="toolbar">
-    <div class="controls">
-      <button id="btn-ALL" class="active" onclick="setOwnerFilter('ALL')">Show All</button>
-      <button id="btn-NORMAN" onclick="setOwnerFilter('NORMAN')">Norman's Projects</button>
-      <button id="btn-NORLENE" onclick="setOwnerFilter('NORLENE')">Norlene's Projects</button>
-    </div>
-    <input type="text" id="search-input" class="search-input" placeholder="Search by Project Name or AC Number..." oninput="filterCards()">
+    <!-- Owner Filter Dropdown -->
+    <select id="owner-select" onchange="filterAndRender()">
+      <option value="ALL">Show All Owners</option>
+      <option value="NORMAN">Norman</option>
+      <option value="NORLENE">Norlene</option>
+      <option value="UNASSIGNED">Unassigned</option>
+    </select>
+
+    <!-- Sorting Filter Dropdown -->
+    <select id="sort-select" onchange="filterAndRender()">
+      <option value="NEWEST">Newest First (Sheet Bottom)</option>
+      <option value="OLDEST">Oldest First (Sheet Top)</option>
+    </select>
+
+    <!-- Search Input -->
+    <input type="text" id="search-input" class="search-input" placeholder="Search by Project Name or AC Number..." oninput="filterAndRender()">
   </div>
 
   <div id="card-grid" class="card-grid"></div>
@@ -110,29 +117,25 @@
 
   <script>
     let projectsData = [];
-    let currentOwnerFilter = 'ALL';
 
     fetch('projects_data.json')
       .then(res => res.json())
       .then(data => {
         projectsData = data;
-        filterCards();
+        filterAndRender();
       });
 
-    function setOwnerFilter(owner) {
-      currentOwnerFilter = owner;
-      document.querySelectorAll('.controls button').forEach(btn => btn.classList.remove('active'));
-      document.getElementById(`btn-${owner}`).classList.add('active');
-      filterCards();
-    }
-
-    function filterCards() {
+    function filterAndRender() {
+      const ownerFilter = document.getElementById('owner-select').value;
+      const sortOrder = document.getElementById('sort-select').value;
       const query = document.getElementById('search-input').value.toLowerCase().trim();
+      
       const grid = document.getElementById('card-grid');
       grid.innerHTML = '';
 
-      const filtered = projectsData.filter(p => {
-        const matchesOwner = (currentOwnerFilter === 'ALL') || (p.owner.toUpperCase() === currentOwnerFilter.toUpperCase());
+      // 1. Filter by Owner & Search Query
+      let processed = projectsData.filter(p => {
+        const matchesOwner = (ownerFilter === 'ALL') || (p.owner.toUpperCase() === ownerFilter.toUpperCase());
         const matchesSearch = !query || 
           p.ac_number.toLowerCase().includes(query) || 
           p.project_name.toLowerCase().includes(query);
@@ -140,7 +143,13 @@
         return matchesOwner && matchesSearch;
       });
 
-      filtered.forEach((p, index) => {
+      // 2. Sort Order (Newest First reverses array from Smartsheet order)
+      if (sortOrder === 'NEWEST') {
+        processed = [...processed].reverse();
+      }
+
+      // 3. Render Cards
+      processed.forEach(p => {
         const colors = new Set();
         p.items.forEach(item => colors.add(item.status_color));
 
