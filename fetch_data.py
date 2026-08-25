@@ -3,15 +3,12 @@ import re
 import json
 import smartsheet
 
-# 1. Load secret token from GitHub Actions environment
 TOKEN = os.environ.get("SMARTSHEET_TOKEN")
-
 if not TOKEN:
     raise ValueError("SMARTSHEET_TOKEN secret is missing or empty.")
 
 smart = smartsheet.Smartsheet(TOKEN)
 
-# 2. Dynamically find the sheet ID by its exact name
 target_sheet_name = "ALLCON PROJECTS BUY OUT LIST"
 response = smart.Sheets.list_sheets(include_all=True)
 
@@ -21,25 +18,19 @@ for s in response.data:
         sheet_id = s.id
         break
 
-# Fallback: take the first sheet available if name matching fails
 if not sheet_id and response.data:
     sheet_id = response.data[0].id
 
-if not sheet_id:
-    raise ValueError("No sheets found for this API token. Verify token access in Smartsheet.")
-
 sheet = smart.Sheets.get_sheet(sheet_id)
-
-# 3. Map sheet columns dynamically
 cols = {col.title: col.id for col in sheet.columns}
 
 projects = []
 current_project = None
+last_known_owner = "UNASSIGNED"
 
 OWNERS = ["NORMAN", "NORLENE"]
-AC_PATTERN = re.compile(r'\bAC\d+\b', re.IGNORECASE)
+AC_PATTERN = re.compile(r'\bAC\d+', re.IGNORECASE)
 
-# 4. Color status evaluation function
 def determine_status_color(item):
     comments = str(item.get("comments", "")).upper()
     received = item.get("received", False)
@@ -55,42 +46,60 @@ def determine_status_color(item):
         return "orange"
     return "white"
 
-# 5. Process rows sequentially
 for row in sheet.rows:
     cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
 
     primary_val = str(cell_values.get(cols.get("Primary Column"), "")).strip()
     supplier_val = str(cell_values.get(cols.get("SUPPLIER"), "")).strip()
 
-    is_owner_row = supplier_val.upper() in OWNERS or any(o in primary_val.upper() for o in OWNERS)
-    has_ac = bool(AC_PATTERN.search(primary_val))
+    if not primary_val and not supplier_val:
+        continue
 
-    # Detect project headers
-    if is_owner_row or has_ac:
+    # Check for Owner
+    detected_owner = None
+    if supplier_val.upper() in OWNERS:
+        detected_owner = supplier_val.upper()
+    else:
+        for o in OWNERS:
+            if o in primary_val.upper():
+                detected_owner = o
+                break
+
+    if detected_owner:
+        last_known_owner = detected_owner
+
+    has_ac = bool(AC_PATTERN.search(primary_val))
+    is_header = detected_owner is not None or has_ac
+
+    if is_header:
+        # Save previous project block if populated
         if current_project and current_project["items"]:
             projects.append(current_project)
             current_project = None
 
-        owner = "UNASSIGNED"
-        if supplier_val.upper() in OWNERS:
-            owner = supplier_val.upper()
-        elif "NORMAN" in primary_val.upper():
-            owner = "NORMAN"
-        elif "NORLENE" in primary_val.upper():
-            owner = "NORLENE"
+        ac_matches = AC_PATTERN.findall(primary_val)
+        ac_str = primary_val if has_ac else ""
 
-        ac_match = AC_PATTERN.search(primary_val)
-        ac_num = ac_match.group(0) if ac_match else ""
+        # Distinguish project name from job number
+        proj_name = primary_val if not has_ac else ""
+        if not proj_name and detected_owner and supplier_val.upper() in OWNERS:
+            proj_name = primary_val
 
         current_project = {
-            "owner": owner,
-            "project_name": primary_val if not has_ac else "",
-            "ac_number": ac_num,
+            "owner": detected_owner or last_known_owner,
+            "project_name": proj_name,
+            "ac_number": ac_str,
             "items": []
         }
+    elif current_project:
+        # Fill missing project name/AC number from adjacent header rows
+        if not current_project["project_name"] and not has_ac and primary_val:
+            current_project["project_name"] = primary_val
+            continue
+        elif not current_project["ac_number"] and has_ac:
+            current_project["ac_number"] = primary_val
+            continue
 
-    # Detect component rows under current project
-    elif current_project and primary_val:
         item = {
             "component": primary_val,
             "supplier": supplier_val,
@@ -105,12 +114,17 @@ for row in sheet.rows:
         item["status_color"] = determine_status_color(item)
         current_project["items"].append(item)
 
-# Save final project block
 if current_project and current_project["items"]:
     projects.append(current_project)
 
-# Export processed JSON for GitHub Pages frontend
+# Post-processing cleanup for headers
+for p in projects:
+    if not p["project_name"] and p["ac_number"]:
+        p["project_name"] = "Project " + p["ac_number"]
+    elif not p["ac_number"]:
+        p["ac_number"] = "NO AC"
+
 with open("projects_data.json", "w") as f:
     json.dump(projects, f, indent=2)
 
-print(f"Successfully exported {len(projects)} projects to projects_data.json")
+print(f"Successfully processed {len(projects)} projects.")
