@@ -3,13 +3,34 @@ import re
 import json
 import smartsheet
 
-# Load token from GitHub Secret environment variable
+# 1. Load secret token from GitHub Actions environment
 TOKEN = os.environ.get("SMARTSHEET_TOKEN")
-SHEET_ID = 4059040942542724  # Extracted from your sheet URL: 9mRVF6gf9Vr4Mqhx6hm3wvh6pj6FCqcH2G29Rg41
+
+if not TOKEN:
+    raise ValueError("SMARTSHEET_TOKEN secret is missing or empty.")
 
 smart = smartsheet.Smartsheet(TOKEN)
-sheet = smart.Sheets.get_sheet(SHEET_ID)
 
+# 2. Dynamically find the sheet ID by its exact name
+target_sheet_name = "ALLCON PROJECTS BUY OUT LIST"
+response = smart.Sheets.list_sheets(include_all=True)
+
+sheet_id = None
+for s in response.data:
+    if s.name.strip().upper() == target_sheet_name.upper():
+        sheet_id = s.id
+        break
+
+# Fallback: take the first sheet available if name matching fails
+if not sheet_id and response.data:
+    sheet_id = response.data[0].id
+
+if not sheet_id:
+    raise ValueError("No sheets found for this API token. Verify token access in Smartsheet.")
+
+sheet = smart.Sheets.get_sheet(sheet_id)
+
+# 3. Map sheet columns dynamically
 cols = {col.title: col.id for col in sheet.columns}
 
 projects = []
@@ -18,6 +39,7 @@ current_project = None
 OWNERS = ["NORMAN", "NORLENE"]
 AC_PATTERN = re.compile(r'\bAC\d+\b', re.IGNORECASE)
 
+# 4. Color status evaluation function
 def determine_status_color(item):
     comments = str(item.get("comments", "")).upper()
     received = item.get("received", False)
@@ -33,6 +55,7 @@ def determine_status_color(item):
         return "orange"
     return "white"
 
+# 5. Process rows sequentially
 for row in sheet.rows:
     cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
 
@@ -42,6 +65,7 @@ for row in sheet.rows:
     is_owner_row = supplier_val.upper() in OWNERS or any(o in primary_val.upper() for o in OWNERS)
     has_ac = bool(AC_PATTERN.search(primary_val))
 
+    # Detect project headers
     if is_owner_row or has_ac:
         if current_project and current_project["items"]:
             projects.append(current_project)
@@ -64,6 +88,8 @@ for row in sheet.rows:
             "ac_number": ac_num,
             "items": []
         }
+
+    # Detect component rows under current project
     elif current_project and primary_val:
         item = {
             "component": primary_val,
@@ -79,8 +105,12 @@ for row in sheet.rows:
         item["status_color"] = determine_status_color(item)
         current_project["items"].append(item)
 
+# Save final project block
 if current_project and current_project["items"]:
     projects.append(current_project)
 
+# Export processed JSON for GitHub Pages frontend
 with open("projects_data.json", "w") as f:
     json.dump(projects, f, indent=2)
+
+print(f"Successfully exported {len(projects)} projects to projects_data.json")
