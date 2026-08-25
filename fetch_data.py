@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import smartsheet
 
@@ -20,14 +21,21 @@ for s in response.data:
 if not sheet_id and response.data:
     sheet_id = response.data[0].id
 
-sheet = smart.Sheets.get_sheet(sheet_id)
+# Request sheet WITH format data included
+sheet = smart.Sheets.get_sheet(sheet_id, include="format")
 cols = {col.title: col.id for col in sheet.columns}
 
-projects = []
-current_project = None
-pending_project_name = ""
-
 OWNERS = ["NORMAN", "NORLENE"]
+AC_REGEX = re.compile(r'\bAC\s*\d+', re.IGNORECASE)
+
+def is_colored_row(row):
+    """Checks if any primary or supplier cell has a background color formatting applied."""
+    for cell in row.cells:
+        if cell.format:
+            # Smartsheet format strings contain hex background colors
+            # Colored header rows (Grey, Brown, Blue, Pink) will have specific format flags
+            return True
+    return False
 
 def determine_status_color(item):
     comments = str(item.get("comments", "")).upper()
@@ -44,68 +52,100 @@ def determine_status_color(item):
         return "orange"
     return "white"
 
-for row in sheet.rows:
-    cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
+all_rows = list(sheet.rows)
+projects = []
 
+for idx, row in enumerate(all_rows):
+    cell_values = {cell.column_id: (cell.value or cell.display_value or "") for cell in row.cells}
     primary_val = str(cell_values.get(cols.get("Primary Column"), "")).strip()
     supplier_val = str(cell_values.get(cols.get("SUPPLIER"), "")).strip()
 
-    if not primary_val and not supplier_val:
-        continue
+    # ANCHOR 1: Detect the Brown AC Row (Matches AC pattern or has AC text in primary/supplier)
+    if AC_REGEX.search(primary_val) or AC_REGEX.search(supplier_val):
+        ac_number = primary_val if AC_REGEX.search(primary_val) else supplier_val
 
-    # Detect Owner
-    detected_owner = "UNASSIGNED"
-    if supplier_val.upper() in OWNERS:
-        detected_owner = supplier_val.upper()
-    elif primary_val.upper() in OWNERS:
-        detected_owner = primary_val.upper()
+        # --- ANCHOR 2: SCAN UPWARD FOR GREY (PROJECT NAME) & BLUE/PINK (OWNER) ---
+        project_name = ""
+        project_owner = "UNASSIGNED"
 
-    # Case 1: Row above AC containing Project Name (e.g. MARMATO - SM TROMMEL FRAME)
-    if detected_owner != "UNASSIGNED" or (primary_val and "AC" not in primary_val.upper() and not supplier_val and not cell_values.get(cols.get("PO NR"), "")):
-        pending_project_name = primary_val
-        if detected_owner != "UNASSIGNED":
-            active_owner = detected_owner
-        else:
-            active_owner = "UNASSIGNED"
-        continue
+        up_idx = idx - 1
+        while up_idx >= 0:
+            up_row = all_rows[up_idx]
+            up_cells = {cell.column_id: (cell.value or cell.display_value or "") for cell in up_row.cells}
+            up_primary = str(up_cells.get(cols.get("Primary Column"), "")).strip()
+            up_supplier = str(up_cells.get(cols.get("SUPPLIER"), "")).strip()
 
-    # Case 2: Row containing AC Number (e.g. AC2942)
-    if "AC" in primary_val.upper() or "AC" in supplier_val.upper():
-        if current_project and current_project["items"]:
-            projects.append(current_project)
+            # Stop if we bump into the previous project's AC row
+            if AC_REGEX.search(up_primary) or AC_REGEX.search(up_supplier):
+                break
 
-        ac_str = primary_val if "AC" in primary_val.upper() else supplier_val
+            # Look for Owner in the Blue/Pink row cells
+            for o in OWNERS:
+                if o in up_supplier.upper() or o in up_primary.upper():
+                    project_owner = o
+                    break
 
-        current_project = {
-            "owner": active_owner if 'active_owner' in locals() else "UNASSIGNED",
-            "project_name": pending_project_name if pending_project_name else ac_str,
-            "ac_number": ac_str,
-            "items": []
-        }
-        pending_project_name = "" # Reset for next project
-        continue
+            # The Grey Row sitting above AC is our Project Name
+            if up_primary and up_primary.upper() not in OWNERS:
+                project_name = up_primary
+                break  # Exit upward scan once captured
 
-    # Case 3: Standard Component Rows (e.g. PLATE MATERIAL, STRUCTURAL MATERIAL)
-    if current_project:
-        item = {
-            "component": primary_val,
-            "supplier": supplier_val,
-            "supplier_contact": cell_values.get(cols.get("Supplier Contact"), ""),
-            "po_nr": cell_values.get(cols.get("PO NR"), ""),
-            "date_po": cell_values.get(cols.get("Date of PO"), ""),
-            "received": bool(cell_values.get(cols.get("Received"), False)),
-            "date_received": cell_values.get(cols.get("Date Received"), ""),
-            "followed_up": bool(cell_values.get(cols.get("Followed up"), False)),
-            "comments": cell_values.get(cols.get("Follow up comments / ETA"), "")
-        }
-        item["status_color"] = determine_status_color(item)
-        current_project["items"].append(item)
+            up_idx -= 1
 
-if current_project and current_project["items"]:
-    projects.append(current_project)
+        if not project_name:
+            project_name = ac_number
 
-# Output preserved sheet order directly
+        # --- ANCHOR 3: SCAN DOWNWARD FOR ACTION ITEMS (UNCOLORED ROWS) ---
+        items = []
+        down_idx = idx + 1
+
+        while down_idx < len(all_rows):
+            down_row = all_rows[down_idx]
+            down_cells = {cell.column_id: (cell.value or cell.display_value or "") for cell in down_row.cells}
+            down_primary = str(down_cells.get(cols.get("Primary Column"), "")).strip()
+            down_supplier = str(down_cells.get(cols.get("SUPPLIER"), "")).strip()
+
+            # STOP CONDITION: We hit the next project's Grey Header Row or Brown AC Row
+            if AC_REGEX.search(down_primary) or AC_REGEX.search(down_supplier):
+                break
+
+            # If down_primary exists and we hit another header block text (Grey Row), stop
+            if down_primary and not down_cells.get(cols.get("PO NR"), "") and not down_cells.get(cols.get("Date of PO"), "") and not down_supplier:
+                # Check if the row directly after it is an AC row
+                if down_idx + 1 < len(all_rows):
+                    next_cells = {cell.column_id: (cell.value or cell.display_value or "") for cell in all_rows[down_idx + 1].cells}
+                    next_p = str(next_cells.get(cols.get("Primary Column"), "")).strip()
+                    next_s = str(next_cells.get(cols.get("SUPPLIER"), "")).strip()
+                    if AC_REGEX.search(next_p) or AC_REGEX.search(next_s):
+                        break
+
+            # Line Item (White / Yellow highlighted action item rows)
+            if down_primary:
+                item = {
+                    "component": down_primary,
+                    "supplier": down_supplier,
+                    "supplier_contact": down_cells.get(cols.get("Supplier Contact"), ""),
+                    "po_nr": str(down_cells.get(cols.get("PO NR"), "")).strip(),
+                    "date_po": str(down_cells.get(cols.get("Date of PO"), "")).strip(),
+                    "received": bool(down_cells.get(cols.get("Received"), False)),
+                    "date_received": str(down_cells.get(cols.get("Date Received"), "")).strip(),
+                    "followed_up": bool(down_cells.get(cols.get("Followed up"), False)),
+                    "comments": str(down_cells.get(cols.get("Follow up comments / ETA"), "")).strip()
+                }
+                item["status_color"] = determine_status_color(item)
+                items.append(item)
+
+            down_idx += 1
+
+        # Save project entry
+        projects.append({
+            "owner": project_owner,
+            "project_name": project_name,
+            "ac_number": ac_number,
+            "items": items
+        })
+
 with open("projects_data.json", "w") as f:
     json.dump(projects, f, indent=2)
 
-print(f"Exported {len(projects)} projects in original Smartsheet order.")
+print(f"Successfully processed {len(projects)} color-anchored project blocks.")
