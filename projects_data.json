@@ -1,21 +1,9 @@
 [
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubberlining",
     "ac_number": "AC2584",
     "items": [
-      {
-        "component": "Rubberlining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO14379",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "COLLECTED BY STETAN 02/12/25",
-        "status_color": "green"
-      },
       {
         "component": "Structural",
         "supplier": "Stewarts & Lloyds",
@@ -188,21 +176,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seal wearing ring machining",
     "ac_number": "AC2586",
     "items": [
-      {
-        "component": "Seal wearing ring machining",
-        "supplier": "Matla",
-        "supplier_contact": "Kobus",
-        "po_nr": "PO14424",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rolling",
         "supplier": "Active plate",
@@ -267,21 +243,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2588",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "TWP",
-        "supplier_contact": "Shaun",
-        "po_nr": "PO14460",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "LAFIQUE TROMMEL FRAME",
         "supplier": "",
@@ -298,21 +262,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubberlining",
     "ac_number": "AC2589",
     "items": [
-      {
-        "component": "Rubberlining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO14479",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural Beams",
         "supplier": "Stewarts & Lloyds",
@@ -413,21 +365,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - Full plate",
     "ac_number": "AC2591",
     "items": [
-      {
-        "component": "Material - Full plate",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO14484",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material -  Joint Plate",
         "supplier": "Macsteel",
@@ -456,21 +396,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - Full plate",
     "ac_number": "AC2593",
     "items": [
-      {
-        "component": "Material - Full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14501",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -607,21 +535,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - Full plate",
     "ac_number": "AC2595",
     "items": [
-      {
-        "component": "Material - Full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14510",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - Full plate",
         "supplier": "Quantum steel",
@@ -734,21 +650,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - Full plate",
     "ac_number": "AC2594",
     "items": [
-      {
-        "component": "Material - Full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14510",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - Full plate",
         "supplier": "Quantum steel",
@@ -849,21 +753,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plate",
     "ac_number": "AC2599",
     "items": [
-      {
-        "component": "Material - full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14532",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - channels",
         "supplier": "stewarts & lloyds",
@@ -916,21 +808,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plate",
     "ac_number": "AC2602",
     "items": [
-      {
-        "component": "Material - full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14546",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural  pipes",
         "supplier": "stewarts & lloyds",
@@ -971,21 +851,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2597",
+    "project_name": "Material  B/O",
+    "ac_number": "AC2597 & 98",
     "items": [
-      {
-        "component": "Material  B/O",
-        "supplier": "TWP",
-        "supplier_contact": "Shaun",
-        "po_nr": "PO14552",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - channels",
         "supplier": "stewarts & lloyds",
@@ -1050,21 +918,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material  B/O",
     "ac_number": "AC2596",
     "items": [
-      {
-        "component": "Material  B/O",
-        "supplier": "TWP",
-        "supplier_contact": "Shaun",
-        "po_nr": "PO14550",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaresa",
@@ -1117,21 +973,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2600",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Dabaressa",
-        "supplier_contact": "Conrad",
-        "po_nr": "PO14855",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Stress Relieve",
         "supplier": "T-line",
@@ -1160,21 +1004,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2601",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO14703",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Stress Relieve",
         "supplier": "T-line",
@@ -1215,21 +1047,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubber lining",
     "ac_number": "AC2509",
     "items": [
-      {
-        "component": "Rubber lining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO14663",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -1342,21 +1162,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural  Material",
     "ac_number": "AC2541",
     "items": [
-      {
-        "component": "Structural  Material",
-        "supplier": "Stewarts & Lloyds",
-        "supplier_contact": "Petrus",
-        "po_nr": "PO14699",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SHOKPAR - JACKING CRADLES",
         "supplier": "",
@@ -1373,21 +1181,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plates",
     "ac_number": "AC2609",
     "items": [
-      {
-        "component": "Material - full plates",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14682",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Conveyor",
         "supplier": "Conveyor",
@@ -1440,21 +1236,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plates",
     "ac_number": "AC2610",
     "items": [
-      {
-        "component": "Material - full plates",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14682",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SEPON - FEED SPOUT - TIVAR SEAL",
         "supplier": "",
@@ -1471,21 +1255,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seal Tivar",
     "ac_number": "AC2658",
     "items": [
-      {
-        "component": "Seal Tivar",
-        "supplier": "Custom seal",
-        "supplier_contact": "John",
-        "po_nr": "PO14702",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SNOWY RIVERS - CAST IN PLATES",
         "supplier": "",
@@ -1502,21 +1274,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Round bars",
     "ac_number": "AC26",
     "items": [
-      {
-        "component": "Round bars",
-        "supplier": "stewarts & lloyds",
-        "supplier_contact": "Petrus",
-        "po_nr": "PO14735",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SHOKPAR - DISCHARGE END TRUNNION INSERT",
         "supplier": "",
@@ -1533,21 +1293,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2605",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO14756",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "DELIVERED TO ALLCON 19/12/2025",
-        "status_color": "green"
-      },
       {
         "component": "Rubber Lining",
         "supplier": "Stetan",
@@ -1612,21 +1360,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - Full plates",
     "ac_number": "AC2603",
     "items": [
-      {
-        "component": "Material - Full plates",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14751",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts & LLoyds",
@@ -1751,21 +1487,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2606",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO14834",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -1818,21 +1542,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "125MM BELLOWS",
     "ac_number": "AC2621",
     "items": [
-      {
-        "component": "125MM BELLOWS",
-        "supplier": "Hose  world",
-        "supplier_contact": "Morne",
-        "po_nr": "PO14999",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Pipes",
         "supplier": "Econo Flex",
@@ -1885,21 +1597,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rolling",
     "ac_number": "AC2622",
     "items": [
-      {
-        "component": "Rolling",
-        "supplier": "Active plate",
-        "supplier_contact": "Theo",
-        "po_nr": "PO14836",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -1964,21 +1664,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plate",
     "ac_number": "AC2623",
     "items": [
-      {
-        "component": "Material - full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO14866",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -2067,21 +1755,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - Plates",
     "ac_number": "AC2625",
     "items": [
-      {
-        "component": "Material - Plates",
-        "supplier": "Quantum steel",
-        "supplier_contact": "Gordon",
-        "po_nr": "PO14944",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - Plates",
         "supplier": "Genesis",
@@ -2338,21 +2014,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2626",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Anelize",
-        "po_nr": "PO15044",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts",
@@ -2405,21 +2069,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2627",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO16056",
-        "date_po": "2026-02-16",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "26/02 del",
-        "status_color": "green"
-      },
       {
         "component": "AZURE - FEED END TRUNNION INSERT #1",
         "supplier": "",
@@ -2436,21 +2088,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2633",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO14960",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -2503,21 +2143,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2634",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO14960",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -2570,21 +2198,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2635",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "WFQ",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "TQ - Michael",
-        "status_color": "orange"
-      },
       {
         "component": "Rubber lining - removal",
         "supplier": "Stetan",
@@ -2625,21 +2241,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plate",
     "ac_number": "AC2636",
     "items": [
-      {
-        "component": "Material - full plate",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO15047",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining & supply the round bar",
         "supplier": "Ruvis",
@@ -2692,21 +2296,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubber lining",
     "ac_number": "AC2637",
     "items": [
-      {
-        "component": "Rubber lining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO14971",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rolled ring",
         "supplier": "TWP",
@@ -2747,21 +2339,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2638",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "WFQ",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "Rubber lining - removal",
         "supplier": "Stetan",
@@ -2802,21 +2382,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plate",
     "ac_number": "AC2639",
     "items": [
-      {
-        "component": "Material - full plate",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO15047",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining & supply the round bar",
         "supplier": "Ruvis",
@@ -2869,21 +2437,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubber lining",
     "ac_number": "AC2640",
     "items": [
-      {
-        "component": "Rubber lining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO14971",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rolled ring",
         "supplier": "TWP",
@@ -2924,21 +2480,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - full plate",
     "ac_number": "AC2642",
     "items": [
-      {
-        "component": "Material - full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15044",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Seals",
         "supplier": "Custom seals",
@@ -3003,21 +2547,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural Material",
     "ac_number": "AC2624",
     "items": [
-      {
-        "component": "Structural Material",
-        "supplier": "Stewarts & Lloyds",
-        "supplier_contact": "Petrus",
-        "po_nr": "PO15002",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SNOWY RIVER - TROMMEL",
         "supplier": "",
@@ -3034,21 +2566,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Trommel Cone material",
     "ac_number": "AC2644",
     "items": [
-      {
-        "component": "Trommel Cone material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15044",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural Material",
         "supplier": "Stewarts & Lloyds",
@@ -3125,21 +2645,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seals",
     "ac_number": "AC2645",
     "items": [
-      {
-        "component": "Seals",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15039",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Special washers",
         "supplier": "TWP",
@@ -3300,21 +2808,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2613",
+    "project_name": "Material - plates",
+    "ac_number": "AC2613 & AC2614",
     "items": [
-      {
-        "component": "Material - plates",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO15077",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - plate",
         "supplier": "Genesis",
@@ -3379,21 +2875,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - plates",
     "ac_number": "AC2604",
     "items": [
-      {
-        "component": "Material - plates",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO15077",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - plate",
         "supplier": "Genesis",
@@ -3434,21 +2918,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - plates",
     "ac_number": "AC2580",
     "items": [
-      {
-        "component": "Material - plates",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15076 + PO15082",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material - plate",
         "supplier": "Rio-carb",
@@ -3573,21 +3045,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2641",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Steel corp",
-        "supplier_contact": "Luzaan",
-        "po_nr": "PO15070 + PO15494",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Tap 3/4",
         "supplier": "Infinity",
@@ -3856,21 +3316,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2650",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15079",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Cone",
         "supplier": "Steelcorp",
@@ -3971,21 +3419,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2652",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15103",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Seals & damping pads & Tivar 88",
         "supplier": "Custom seals",
@@ -4038,21 +3474,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2651",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15103",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Seals & damping pads & Tivar 88",
         "supplier": "Custom seals",
@@ -4129,21 +3553,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2631",
+    "project_name": "Material",
+    "ac_number": "AC2631 & AC2632",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15052",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Pipe 1/2nb",
         "supplier": "Stewarts",
@@ -4172,21 +3584,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2653",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15334",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Material structural",
         "supplier": "Stewarts",
@@ -4359,21 +3759,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2630",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15115",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -4414,21 +3802,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2628",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15107",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -4481,21 +3857,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2656",
+    "project_name": "Structural material",
+    "ac_number": "AC2656 & AC2657",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "Stewarts",
-        "supplier_contact": "Petrus",
-        "po_nr": "PO15124",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "K5",
@@ -4548,40 +3912,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2656",
-    "items": [
-      {
-        "component": "LAFIGUE - FEED SPOUT SEALS",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seal",
     "ac_number": "AC2661",
     "items": [
-      {
-        "component": "Seal",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15172",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rolling",
         "supplier": "Active plate",
@@ -4622,21 +3955,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seals",
     "ac_number": "AC2658",
     "items": [
-      {
-        "component": "Seals",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15183",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Seal wear ring",
         "supplier": "TWP",
@@ -4677,21 +3998,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2663",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "TWP",
-        "supplier_contact": "Camryn",
-        "po_nr": "PO15221",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber Lining",
         "supplier": "Stetan",
@@ -4744,21 +4053,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - buyout",
     "ac_number": "AC2664",
     "items": [
-      {
-        "component": "Material - buyout",
-        "supplier": "TWP",
-        "supplier_contact": "Camryn",
-        "po_nr": "PO15235",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "40X40X6THK S/S PLATE",
         "supplier": "TWP",
@@ -4811,21 +4108,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - buyout",
     "ac_number": "AC2665",
     "items": [
-      {
-        "component": "Material - buyout",
-        "supplier": "TWP",
-        "supplier_contact": "Camryn",
-        "po_nr": "PO15236",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -4866,21 +4151,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material - buyout",
     "ac_number": "AC2666",
     "items": [
-      {
-        "component": "Material - buyout",
-        "supplier": "TWP",
-        "supplier_contact": "Camryn",
-        "po_nr": "PO15237",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "HUSAB - TROMMEL ADAPTOR",
         "supplier": "",
@@ -4897,21 +4170,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2654",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15129",
-        "date_po": "2026-03-17",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "machining",
         "supplier": "Ruvis",
@@ -4976,21 +4237,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2655",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO15255",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "Do not have work piece yet",
-        "status_color": "orange"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -5019,40 +4268,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2670",
+    "project_name": "Machining",
+    "ac_number": "AC2672 - PINION BASE PLATE SET",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Dabaressa",
-        "supplier_contact": "Conrad",
-        "po_nr": "PO15268",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2672",
-    "items": [
-      {
-        "component": "Machining",
-        "supplier": "Dabaressa",
-        "supplier_contact": "Conrad",
-        "po_nr": "PO15268",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Extra machining",
         "supplier": "Dabaressa",
@@ -5069,21 +4287,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2673",
+    "project_name": "Fasteners",
+    "ac_number": "AC2673 - MAIN MOTOR BASE PLATE",
     "items": [
-      {
-        "component": "Fasteners",
-        "supplier": "Impact bolt",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO15269",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -5100,21 +4306,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2674",
+    "project_name": "Machining",
+    "ac_number": "AC2674 - MOTOR SUB BASE PLATE SET",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Dabaressa",
-        "supplier_contact": "Conrad",
-        "po_nr": "PO15268",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "DRD- TROMMEL ADAPTOR REFURB",
         "supplier": "",
@@ -5131,21 +4325,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2676",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruan",
-        "supplier_contact": "Ruvis",
-        "po_nr": "PO16501",
-        "date_po": "2026-03-23",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "SNOWY RIVERS - GGG",
         "supplier": "",
@@ -5162,21 +4344,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2667",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15334",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural Material",
         "supplier": "Stewarts",
@@ -5313,21 +4483,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Floor plates",
     "ac_number": "AC2649",
     "items": [
-      {
-        "component": "Floor plates",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO15287",
-        "date_po": "2025-01-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Test Pieces",
         "supplier": "Steel corp",
@@ -5632,21 +4790,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rods",
     "ac_number": "AC2679",
     "items": [
-      {
-        "component": "Rods",
-        "supplier": "Stewarts",
-        "supplier_contact": "Petrus",
-        "po_nr": "PO15289",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Angles",
         "supplier": "Stewarts",
@@ -5759,21 +4905,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2677",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "annelize",
-        "po_nr": "PO15334",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts",
@@ -5934,21 +5068,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Mesh",
     "ac_number": "AC2680",
     "items": [
-      {
-        "component": "Mesh",
-        "supplier": "Screen Manufactures",
-        "supplier_contact": "",
-        "po_nr": "PO15449",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "BOMBORE",
         "supplier": "COPLETION DATE",
@@ -5965,21 +5087,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seals",
     "ac_number": "AC2690",
     "items": [
-      {
-        "component": "Seals",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15478",
-        "date_po": "2025-11-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "KUBADA - HOLD DOWN BOLT SLEEVE",
         "supplier": "",
@@ -5996,21 +5106,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material full plate",
     "ac_number": "AC2668",
     "items": [
-      {
-        "component": "Material full plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Samantha",
-        "po_nr": "PO15562",
-        "date_po": "2026-01-05",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural Material",
         "supplier": "Khuthala Steel",
@@ -6051,21 +5149,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural Material",
     "ac_number": "AC2669",
     "items": [
-      {
-        "component": "Structural Material",
-        "supplier": "Stewarts",
-        "supplier_contact": "Jakobus",
-        "po_nr": "PO15485",
-        "date_po": "2025-12-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "DRD - GGG",
         "supplier": "",
@@ -6082,21 +5168,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural Material",
     "ac_number": "AC2646",
     "items": [
-      {
-        "component": "Structural Material",
-        "supplier": "Stewarts",
-        "supplier_contact": "Juandre",
-        "po_nr": "PO15160",
-        "date_po": "2026-01-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Grease spray doors - buyout",
         "supplier": "TWP",
@@ -6209,21 +5283,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2678",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15406",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "ETA 06/01/26",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "NJR",
@@ -6288,21 +5350,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2683",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15592",
-        "date_po": "2026-01-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -6355,21 +5405,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2684",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15592",
-        "date_po": "2026-01-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -6422,21 +5460,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2685",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15593",
-        "date_po": "2026-01-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -6489,21 +5515,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2629",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast Flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15605",
-        "date_po": "2026-01-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -6556,21 +5570,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2693",
+    "project_name": "Felt seals 12 off",
+    "ac_number": "AC2693 - JOB ID - 4885",
     "items": [
-      {
-        "component": "Felt seals 12 off",
-        "supplier": "Custom Seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15571",
-        "date_po": "2026-01-07",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF - ETA week of 16/02 Custom Seals to deliver 20/02",
-        "status_color": "green"
-      },
       {
         "component": "DRD - FE INSERT ADAPTOR",
         "supplier": "16/01/2026",
@@ -6587,21 +5589,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "O RING",
     "ac_number": "AC2696",
     "items": [
-      {
-        "component": "O RING",
-        "supplier": "Citi bearings",
-        "supplier_contact": "Leonor",
-        "po_nr": "PO15601",
-        "date_po": "2026-01-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Cup washers & Rubber plugs",
         "supplier": "TEE engineering",
@@ -6678,21 +5668,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining on temp sensor holders",
     "ac_number": "AC2689",
     "items": [
-      {
-        "component": "Machining on temp sensor holders",
-        "supplier": "Dabaressa",
-        "supplier_contact": "Conrad",
-        "po_nr": "PO15669",
-        "date_po": "2026-01-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "MOTHEO - PINION",
         "supplier": "",
@@ -6709,21 +5687,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seals",
     "ac_number": "AC2702",
     "items": [
-      {
-        "component": "Seals",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15696",
-        "date_po": "2026-01-16",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF -Part deliver INV0026608 Custom Seals to deliver 20/02 INV0026881",
-        "status_color": "green"
-      },
       {
         "component": "KUBADA - JACKING CRADLES",
         "supplier": "",
@@ -6740,21 +5706,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Conveyor belt",
     "ac_number": "AC2660",
     "items": [
-      {
-        "component": "Conveyor belt",
-        "supplier": "Conveyor splicing",
-        "supplier_contact": "Kerry",
-        "po_nr": "PO15698",
-        "date_po": "2026-01-19",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Conveyor belt - second order",
         "supplier": "Conveyor splicing",
@@ -6807,21 +5761,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "100X100X10 ANGLE",
     "ac_number": "AC2703",
     "items": [
-      {
-        "component": "100X100X10 ANGLE",
-        "supplier": "Stewarts",
-        "supplier_contact": "Jakobus",
-        "po_nr": "PO15713",
-        "date_po": "2026-01-19",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Angle rolling",
         "supplier": "General rolling",
@@ -6886,21 +5828,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl seals",
     "ac_number": "AC2701",
     "items": [
-      {
-        "component": "Butyl seals",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15790",
-        "date_po": "2026-01-26",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "BOMBORE - FEED SPOUT SEAL X2",
         "supplier": "",
@@ -6917,21 +5847,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2697",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15721",
-        "date_po": "2026-01-20",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "BOMBORE - SAG MILL FE INSERT",
         "supplier": "",
@@ -6948,21 +5866,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2698",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Bekker Steel",
-        "supplier_contact": "ALdo",
-        "po_nr": "PO16015",
-        "date_po": "2026-02-10",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Fasteners",
         "supplier": "Vaal fasteners",
@@ -7015,21 +5921,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2700",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15721",
-        "date_po": "2026-01-20",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "TEI - FEED END TROMMEL SCREEN C/CW SPIRAL",
         "supplier": "",
@@ -7046,21 +5940,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2704",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Riocarb",
-        "supplier_contact": "Alec",
-        "po_nr": "PO15822",
-        "date_po": "2026-01-28",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "ORDER CANCELLED",
-        "status_color": "orange"
-      },
       {
         "component": "CCO Plates full supply + rolling & joining",
         "supplier": "Steel corp",
@@ -7113,21 +5995,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2705",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15793",
-        "date_po": "2026-01-27",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Conveyor belts",
         "supplier": "Conveyor splicing",
@@ -7156,21 +6026,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2706",
+    "project_name": "125x75x12thk Angles",
+    "ac_number": "#1 AC2706 &  #2 AC2707",
     "items": [
-      {
-        "component": "125x75x12thk Angles",
-        "supplier": "NJR",
-        "supplier_contact": "Christo",
-        "po_nr": "PO15856",
-        "date_po": "2026-01-29",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Grease spray doots",
         "supplier": "TWP",
@@ -7331,21 +6189,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seals",
     "ac_number": "AC2708",
     "items": [
-      {
-        "component": "Seals",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO15733",
-        "date_po": "2026-01-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "KUBADA - ASSEMBLY CRADLE",
         "supplier": "",
@@ -7362,21 +6208,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2709",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Genesis steel",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO15793",
-        "date_po": "2026-01-27",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SIGURI - FEED CHUTE WEAR RING",
         "supplier": "",
@@ -7393,21 +6227,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seal wear ring",
     "ac_number": "AC2710",
     "items": [
-      {
-        "component": "Seal wear ring",
-        "supplier": "TWP",
-        "supplier_contact": "Camryn",
-        "po_nr": "PO15810",
-        "date_po": "2026-01-28",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -7436,21 +6258,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2712",
+    "project_name": "Material for stop blocks",
+    "ac_number": "PO4801 / 150336 - AC2712",
     "items": [
-      {
-        "component": "Material for stop blocks",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO15875",
-        "date_po": "2026-02-02",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts",
@@ -7635,21 +6445,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machining",
     "ac_number": "AC2682",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO15935",
-        "date_po": "2026-02-04",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "ETA 24/02",
-        "status_color": "green"
-      },
       {
         "component": "Mittal - FLINGER RINGS",
         "supplier": "",
@@ -7666,21 +6464,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2714",
+    "project_name": "Material",
+    "ac_number": "AC2714 & AC2715",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "TWP",
-        "supplier_contact": "Camryn",
-        "po_nr": "PO15911",
-        "date_po": "2026-02-03",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "LAR - BEARINGS",
         "supplier": "",
@@ -7697,21 +6483,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2716",
+    "project_name": "Structural material",
+    "ac_number": "PO5073 / 15073 - AC2716",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "Stewarts",
-        "supplier_contact": "Jakobus",
-        "po_nr": "PO15956",
-        "date_po": "2026-02-02",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Cap to base bolts",
         "supplier": "Dabaresa",
@@ -7908,21 +6682,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl seal",
     "ac_number": "AC2719",
     "items": [
-      {
-        "component": "Butyl seal",
-        "supplier": "Custom seal",
-        "supplier_contact": "John",
-        "po_nr": "PO15976",
-        "date_po": "2026-02-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "KUBADA - FLINGER RING",
         "supplier": "",
@@ -7939,21 +6701,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Mterial",
     "ac_number": "AC2720",
     "items": [
-      {
-        "component": "Mterial",
-        "supplier": "TWP",
-        "supplier_contact": "",
-        "po_nr": "PO16054",
-        "date_po": "2026-02-19",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "MITTAL - PANEL TROMMEL",
         "supplier": "",
@@ -7970,21 +6720,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural Material",
     "ac_number": "AC2695",
     "items": [
-      {
-        "component": "Structural Material",
-        "supplier": "NJR",
-        "supplier_contact": "Mariska",
-        "po_nr": "PO16006",
-        "date_po": "2026-02-10",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Front flange",
         "supplier": "Bekker Steel",
@@ -8037,21 +6775,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2721",
+    "project_name": "Plate Material",
+    "ac_number": "AC2721,22,23,24",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16471",
-        "date_po": "2026-03-18",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -8140,21 +6866,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Stubs & backing rings",
     "ac_number": "AC2729",
     "items": [
-      {
-        "component": "Stubs & backing rings",
-        "supplier": "Rare plastics",
-        "supplier_contact": "Walter",
-        "po_nr": "PO16090",
-        "date_po": "2026-02-18",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Law engineering",
@@ -8183,21 +6897,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material",
     "ac_number": "AC2730",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16522",
-        "date_po": "2026-03-24",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material for labyrinths 100x75x8thk",
         "supplier": "BSI STEEL",
@@ -8370,21 +7072,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material mesh",
     "ac_number": "AC2732",
     "items": [
-      {
-        "component": "Material mesh",
-        "supplier": "Screen manufacturing",
-        "supplier_contact": "Madeline",
-        "po_nr": "PO16136",
-        "date_po": "2026-02-23",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "KOURROUSSA - TRUNNION BEARINGS ACCESSORIES",
         "supplier": "",
@@ -8401,21 +7091,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Item 2 - rubber gasket",
     "ac_number": "AC2740",
     "items": [
-      {
-        "component": "Item 2 - rubber gasket",
-        "supplier": "Custom seal",
-        "supplier_contact": "John",
-        "po_nr": "PO16229",
-        "date_po": "2026-03-02",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Item 9 - Pipe 15NB",
         "supplier": "Stewart & Loyds",
@@ -8468,21 +7146,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "110thk  Plate",
     "ac_number": "AC2733",
     "items": [
-      {
-        "component": "110thk  Plate",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO16267",
-        "date_po": "2026-03-04",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining on base plate",
         "supplier": "Dabaressa",
@@ -8523,21 +7189,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "100thk Plate",
     "ac_number": "AC2734",
     "items": [
-      {
-        "component": "100thk Plate",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO16295",
-        "date_po": "2026-03-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining on base plate",
         "supplier": "Dabaressa",
@@ -8578,21 +7232,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "plate material",
     "ac_number": "AC2735",
     "items": [
-      {
-        "component": "plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16239",
-        "date_po": "2026-03-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining on base plate",
         "supplier": "Dabaressa",
@@ -8621,21 +7263,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "plate material",
     "ac_number": "AC2736",
     "items": [
-      {
-        "component": "plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16239",
-        "date_po": "2026-03-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "515 x100 X130 bottom plate",
         "supplier": "Bekker steel",
@@ -8688,21 +7318,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material 16mm",
     "ac_number": "AC2737",
     "items": [
-      {
-        "component": "Plate Material 16mm",
-        "supplier": "SSAB",
-        "supplier_contact": "Solomons",
-        "po_nr": "PO16700",
-        "date_po": "2026-04-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate Material 10mm",
         "supplier": "SSAB",
@@ -8743,21 +7361,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl seal Item 3",
     "ac_number": "AC2747",
     "items": [
-      {
-        "component": "Butyl seal Item 3",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16249",
-        "date_po": "2026-03-03",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Butyl seal Item 4",
         "supplier": "Custom seals",
@@ -8786,21 +7392,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material item 3 - locating ring",
     "ac_number": "AC2748",
     "items": [
-      {
-        "component": "Material item 3 - locating ring",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO16370",
-        "date_po": "2026-03-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Item 1 material",
         "supplier": "Bekker steel",
@@ -8889,21 +7483,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material item 5 - cone",
     "ac_number": "AC2749",
     "items": [
-      {
-        "component": "Material item 5 - cone",
-        "supplier": "TWP",
-        "supplier_contact": "Duncan",
-        "po_nr": "PO16369",
-        "date_po": "2026-03-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Material - blocks",
         "supplier": "TWP",
@@ -8956,21 +7538,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubber plugs",
     "ac_number": "AC2750",
     "items": [
-      {
-        "component": "Rubber plugs",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO16344",
-        "date_po": "2026-03-10",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Cup washers",
         "supplier": "Ruvis",
@@ -9023,21 +7593,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material",
     "ac_number": "AC2751",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16727",
-        "date_po": "2026-04-13",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate material hardox 500",
         "supplier": "SSAB",
@@ -9066,21 +7624,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl seal Item 3",
     "ac_number": "AC2755",
     "items": [
-      {
-        "component": "Butyl seal Item 3",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16285",
-        "date_po": "2026-03-05",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "HOW MINE - CTS CONVEYOR",
         "supplier": "",
@@ -9097,21 +7643,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Conveyor",
     "ac_number": "AC2757",
     "items": [
-      {
-        "component": "Conveyor",
-        "supplier": "Conveyor splicing",
-        "supplier_contact": "",
-        "po_nr": "PO16303",
-        "date_po": "2026-03-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "HUSAB - DISCHARGE TRUNNION INSERT",
         "supplier": "",
@@ -9128,21 +7662,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material",
     "ac_number": "AC2756",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO16713",
-        "date_po": "2026-04-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Material",
         "supplier": "TWP",
@@ -9219,21 +7741,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl rubber seals item 2 & 3",
     "ac_number": "AC2754",
     "items": [
-      {
-        "component": "Butyl rubber seals item 2 & 3",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16335",
-        "date_po": "2026-03-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "SHANTA NEW LUIKA (LH) - TROMMEL",
         "supplier": "",
@@ -9250,21 +7760,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material",
     "ac_number": "AC2759",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Gensis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16728",
-        "date_po": "2026-04-13",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts",
@@ -9377,21 +7875,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl rubber seals item 2 & 3",
     "ac_number": "AC2760",
     "items": [
-      {
-        "component": "Butyl rubber seals item 2 & 3",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16413",
-        "date_po": "2026-03-16",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "SYCAMORE BM - FEED CHUTE SEALS",
         "supplier": "",
@@ -9408,21 +7894,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl rubber seals item 2 & 3",
     "ac_number": "AC2761",
     "items": [
-      {
-        "component": "Butyl rubber seals item 2 & 3",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16412",
-        "date_po": "2026-03-16",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "QUEST THICKENER",
         "supplier": "",
@@ -9439,21 +7913,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Complete buy out",
     "ac_number": "AC2762",
     "items": [
-      {
-        "component": "Complete buy out",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO16386",
-        "date_po": "2026-03-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "350NB SHD XS pipe",
         "supplier": "HMT",
@@ -9482,21 +7944,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material",
     "ac_number": "AC2763",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16781",
-        "date_po": "2026-04-15",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate Material",
         "supplier": "Macsteel",
@@ -9693,21 +8143,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material plate",
     "ac_number": "AC2743",
     "items": [
-      {
-        "component": "Material plate",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16699",
-        "date_po": "2026-04-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Conveyor Belt Item 9 & 11",
         "supplier": "Conveyor splicing",
@@ -9748,21 +8186,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2767",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "TWP",
-        "supplier_contact": "Sales",
-        "po_nr": "PO16443",
-        "date_po": "2026-03-17",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -9791,21 +8217,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural material",
     "ac_number": "AC2744",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "Steel & pipe",
-        "supplier_contact": "Andre",
-        "po_nr": "PO16469",
-        "date_po": "2026-03-18",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Bending pockets item 2",
         "supplier": "Active plate",
@@ -9834,21 +8248,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Flange & Shift plate",
     "ac_number": "AC2770",
     "items": [
-      {
-        "component": "Flange & Shift plate",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO16518",
-        "date_po": "2026-03-24",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "HUSAB - FEED CHUTE WEAR RING",
         "supplier": "",
@@ -9865,21 +8267,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Wear ring - 3 off",
     "ac_number": "AC2772",
     "items": [
-      {
-        "component": "Wear ring - 3 off",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO16758",
-        "date_po": "2026-04-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining & Drilling",
         "supplier": "Ruvis",
@@ -9908,21 +8298,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl seals  item 3 & 4",
     "ac_number": "AC2773",
     "items": [
-      {
-        "component": "Butyl seals  item 3 & 4",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16564",
-        "date_po": "2026-03-27",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "IHC MINING",
         "supplier": "",
@@ -9939,21 +8317,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2786",
+    "project_name": "Structural material",
+    "ac_number": "CABLE REELER AC2786/87/88/89/90/91",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "NJR",
-        "supplier_contact": "Mariska",
-        "po_nr": "PO16595",
-        "date_po": "2026-04-04",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "NJR",
@@ -10702,21 +9068,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate Material",
     "ac_number": "AC2774",
     "items": [
-      {
-        "component": "Plate Material",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO16856",
-        "date_po": "2026-04-22",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate Material",
         "supplier": "Genesis",
@@ -10937,21 +9291,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubber lining",
     "ac_number": "AC2784",
     "items": [
-      {
-        "component": "Rubber lining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO16687",
-        "date_po": "2026-04-08",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "Seal wearing",
         "supplier": "TWP",
@@ -11040,21 +9382,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Item 3 & 4 Butyl rubber",
     "ac_number": "AC2776",
     "items": [
-      {
-        "component": "Item 3 & 4 Butyl rubber",
-        "supplier": "Custom Seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16615",
-        "date_po": "2026-07-04",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "IVANPLATES - HOLD DOWN BOLT SLEEVES",
         "supplier": "",
@@ -11071,21 +9401,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2777",
+    "project_name": "Plate material",
+    "ac_number": "AC2777 , AC2778 , AC2782 & AC2783",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16742",
-        "date_po": "2026-04-13",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Steel & pipe",
@@ -11138,21 +9456,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2785",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16963",
-        "date_po": "2026-05-04",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "Genesis",
@@ -11301,21 +9607,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Rubber lining",
     "ac_number": "AC2765",
     "items": [
-      {
-        "component": "Rubber lining",
-        "supplier": "Stetan",
-        "supplier_contact": "Steve",
-        "po_nr": "PO16790",
-        "date_po": "2026-04-16",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "seal retainer plate",
         "supplier": "Bekker steel",
@@ -11356,21 +9650,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "FE Insert adaptor plate",
     "ac_number": "AC2766",
     "items": [
-      {
-        "component": "FE Insert adaptor plate",
-        "supplier": "Bekker steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO16955",
-        "date_po": "2026-04-30",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -11399,21 +9681,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2780",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "SSAB",
-        "supplier_contact": "Solomons",
-        "po_nr": "PO16857",
-        "date_po": "2026-04-22",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "Genesis",
@@ -11490,21 +9760,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Butyl rubber Item3 & 4",
     "ac_number": "AC2800",
     "items": [
-      {
-        "component": "Butyl rubber Item3 & 4",
-        "supplier": "Custom seals",
-        "supplier_contact": "John",
-        "po_nr": "PO16825",
-        "date_po": "2026-04-20",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "TWO RIVERS - FEED SPOUT",
         "supplier": "",
@@ -11521,21 +9779,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2795",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO16903",
-        "date_po": "2026-04-24",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "40x40x5thk Angle",
         "supplier": "NJR",
@@ -11624,21 +9870,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural material",
     "ac_number": "AC2798",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "NJR",
-        "supplier_contact": "Mariska",
-        "po_nr": "PO16894",
-        "date_po": "2026-04-24",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Pipe brace",
         "supplier": "Stewarts",
@@ -11667,21 +9901,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "305X305X158KG I BEAM",
     "ac_number": "AC2803",
     "items": [
-      {
-        "component": "305X305X158KG I BEAM",
-        "supplier": "Stewarts",
-        "supplier_contact": "Jakobus",
-        "po_nr": "PO17108",
-        "date_po": "2026-05-13",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Load test",
         "supplier": "Rhino Lifting",
@@ -11710,21 +9932,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2796",
+    "project_name": "Plate material",
+    "ac_number": "AC2796 BM 1 & AC2797 BM 2",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17134",
-        "date_po": "2025-05-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "Genesis",
@@ -11909,21 +10119,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2804",
+    "project_name": "Plate material",
+    "ac_number": "AC2804 BM 1 & AC2805 BM2",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17267",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts & lloyd",
@@ -11976,21 +10174,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Chock key blocks",
     "ac_number": "AC2809",
     "items": [
-      {
-        "component": "Chock key blocks",
-        "supplier": "TWP",
-        "supplier_contact": "Shaun",
-        "po_nr": "PO16960",
-        "date_po": "2026-04-30",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "del 06/05",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -12019,21 +10205,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2807",
+    "project_name": "Plate material",
+    "ac_number": "AC2807 & AC2808",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17267",
-        "date_po": "2026-05-26",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewart",
@@ -12206,21 +10380,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2801",
+    "project_name": "Plate material",
+    "ac_number": "AC2801 & AC2802",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17134",
-        "date_po": "2026-05-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Plate Material",
         "supplier": "BSI",
@@ -12381,21 +10543,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Machine & supply 6 off Temp sensor holders",
     "ac_number": "AC2819",
     "items": [
-      {
-        "component": "Machine & supply 6 off Temp sensor holders",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO17034",
-        "date_po": "2026-05-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "MALAWI - FEED CHUTE",
         "supplier": "",
@@ -12412,21 +10562,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2814",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17267",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "del 27/05",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "NJR",
@@ -12683,21 +10821,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2810",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "OFF CUTS USED",
-        "status_color": "white"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts & llyods",
@@ -12774,21 +10900,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2811",
+    "project_name": "Plate material",
+    "ac_number": "AC2811,AC2812,AC2813",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17134",
-        "date_po": "2026-05-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "stewarts",
@@ -12853,21 +10967,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2823",
+    "project_name": "Plate material",
+    "ac_number": "AC2823 BM & AC2824 SM",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17134",
-        "date_po": "2026-05-15",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts",
@@ -12932,21 +11034,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2827",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17267",
-        "date_po": "",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "27/05",
-        "status_color": "purple"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts & loyds",
@@ -12987,21 +11077,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2826",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17134",
-        "date_po": "2026-05-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Parm garay",
@@ -13054,21 +11132,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2831",
+    "project_name": "Material",
+    "ac_number": "AC2831 & AC2832",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Bekker Steel",
-        "supplier_contact": "Aldo",
-        "po_nr": "PO17089",
-        "date_po": "2026-05-12",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "",
-        "status_color": "purple"
-      },
       {
         "component": "Machining",
         "supplier": "Scott Turner",
@@ -13097,21 +11163,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2839",
+    "project_name": "Plate material",
+    "ac_number": "AC2839 & AC2840",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17355",
-        "date_po": "2026-06-01",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "Genesis",
@@ -13248,21 +11302,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2842",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17427",
-        "date_po": "2026-06-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "locating ring",
         "supplier": "Steelcorp",
@@ -13327,21 +11369,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Material",
     "ac_number": "AC2843",
     "items": [
-      {
-        "component": "Material",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO17205",
-        "date_po": "2026-05-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Scot turner",
@@ -13394,21 +11424,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Seal wearing",
     "ac_number": "AC2847",
     "items": [
-      {
-        "component": "Seal wearing",
-        "supplier": "Steelcorp",
-        "supplier_contact": "Michael",
-        "po_nr": "PO17246",
-        "date_po": "2026-05-25",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "Machining",
         "supplier": "Dabaressa",
@@ -13449,21 +11467,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2849",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "SPS",
-        "supplier_contact": "Calvin",
-        "po_nr": "PO17424",
-        "date_po": "2026-06-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "Genesis",
@@ -13516,21 +11522,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Chockey blocks",
     "ac_number": "AC2850",
     "items": [
-      {
-        "component": "Chockey blocks",
-        "supplier": "TWP",
-        "supplier_contact": "Victor",
-        "po_nr": "PO17326",
-        "date_po": "2026-06-01",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -13559,21 +11553,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2841",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17427",
-        "date_po": "2026-06-08",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural Material",
         "supplier": "Stewarts",
@@ -13698,21 +11680,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Mesh Rolled",
     "ac_number": "AC2854",
     "items": [
-      {
-        "component": "Mesh Rolled",
-        "supplier": "Screen Manuf",
-        "supplier_contact": "Gayle",
-        "po_nr": "PO17460",
-        "date_po": "2026-06-10",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "MOGALE - FEED SPOUT",
         "supplier": "",
@@ -13729,21 +11699,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2857",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17578",
-        "date_po": "2026-06-23",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Stewarts",
@@ -13940,21 +11898,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Structural material",
     "ac_number": "AC2858",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "NJR",
-        "supplier_contact": "Mariska",
-        "po_nr": "PO17939",
-        "date_po": "2026-07-23",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Round bar",
         "supplier": "Stewarts",
@@ -14055,21 +12001,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Flange material item 1 & 2",
     "ac_number": "AC2859",
     "items": [
-      {
-        "component": "Flange material item 1 & 2",
-        "supplier": "Steelcorp",
-        "supplier_contact": "Michael",
-        "po_nr": "PO17599",
-        "date_po": "2026-06-23",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -14122,21 +12056,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2861",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17785",
-        "date_po": "2026-07-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "SPS",
@@ -14225,21 +12147,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2868",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Steel corp",
-        "supplier_contact": "Michael",
-        "po_nr": "PO17681",
-        "date_po": "2026-07-01",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "Rubber skirt",
         "supplier": "Custom seals",
@@ -14268,21 +12178,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2862",
+    "project_name": "Plate material",
+    "ac_number": "AC2862,2863,2864,2865,2866",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17785",
-        "date_po": "2026-07-09",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -14323,21 +12221,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2870",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17909",
-        "date_po": "2026-07-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "Macsteel",
@@ -14450,21 +12336,9 @@
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "",
+    "project_name": "Plate material",
     "ac_number": "AC2871",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Macsteel",
-        "supplier_contact": "Edna",
-        "po_nr": "PO17918",
-        "date_po": "2026-07-22",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Plate material",
         "supplier": "Macsteel",
@@ -14492,22 +12366,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
     "ac_number": "AC2872",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17909",
-        "date_po": "2026-07-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -14547,41 +12409,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2886",
-    "items": [
-      {
-        "component": "Machining",
-        "supplier": "Dabaresa",
-        "supplier_contact": "Michelle",
-        "po_nr": "PO17841",
-        "date_po": "2026-07-14",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
     "ac_number": "AC2875",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17909",
-        "date_po": "2026-07-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Conveyor",
         "supplier": "Conveyor splicing",
@@ -14609,22 +12440,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2885",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
+    "ac_number": "AC2885 & AC2887",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17909",
-        "date_po": "2026-07-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -14652,22 +12471,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2876",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
+    "ac_number": "AC2876 DE & AC2877 FE",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO17909",
-        "date_po": "2026-07-21",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
@@ -14707,41 +12514,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2889",
+    "owner": "NORLENE",
+    "project_name": "Material buyout",
+    "ac_number": "AC2333 & AC2458",
     "items": [
-      {
-        "component": "Machining",
-        "supplier": "Ruvis",
-        "supplier_contact": "Ruan",
-        "po_nr": "WFQ",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2333",
-    "items": [
-      {
-        "component": "Material buyout",
-        "supplier": "Fast flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO17910",
-        "date_po": "2026-07-22",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "Machining",
         "supplier": "Ruvis",
@@ -14757,41 +12533,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2892",
-    "items": [
-      {
-        "component": "Fasteners",
-        "supplier": "impact bolt",
-        "supplier_contact": "Ruan",
-        "po_nr": "PO17912",
-        "date_po": "2026-07-22",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Structural material",
     "ac_number": "AC2893",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "NJR",
-        "supplier_contact": "Mariska",
-        "po_nr": "PO17944",
-        "date_po": "2026-07-23",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "40NB shed 40 Pipe",
         "supplier": "Clypac",
@@ -14807,22 +12552,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2902",
+    "owner": "NORMAN",
+    "project_name": "MATERIAL",
+    "ac_number": "AC2902 - PINION & AC2903 - TRUNION",
     "items": [
-      {
-        "component": "MATERIAL",
-        "supplier": "Fast Flame",
-        "supplier_contact": "Heinz",
-        "po_nr": "PO18008",
-        "date_po": "2026-07-30",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "RIF",
-        "status_color": "green"
-      },
       {
         "component": "MACHINING",
         "supplier": "RUVIS",
@@ -14838,22 +12571,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
     "ac_number": "AC2771",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO18015",
-        "date_po": "2026-07-30",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "washer retaining rings",
         "supplier": "Matla",
@@ -14965,22 +12686,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2896",
+    "owner": "NORMAN",
+    "project_name": "STRUCTURAL MATERIAL",
+    "ac_number": "AC2896, AC2897, AC2898, AC2899, AC2900, AC2901",
     "items": [
-      {
-        "component": "STRUCTURAL MATERIAL",
-        "supplier": "STEWARTS & LLOYDS",
-        "supplier_contact": "PETRUS",
-        "po_nr": "PO18017",
-        "date_po": "2026-07-30",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "BENDING",
         "supplier": "ACTIVE PLATE",
@@ -14996,22 +12705,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
     "ac_number": "AC2916",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO18113",
-        "date_po": "2026-08-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material",
         "supplier": "NJR",
@@ -15123,60 +12820,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2879",
+    "owner": "NORMAN",
+    "project_name": "MATERIAL",
+    "ac_number": "AC2925, AC2926, AC2927",
     "items": [
-      {
-        "component": "STRUCTURAL MATERIAL",
-        "supplier": "NJR STEEL",
-        "supplier_contact": "MARISKA",
-        "po_nr": "PO18020",
-        "date_po": "2026-07-31",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2917",
-    "items": [
-      {
-        "component": "STRUCTURAL MATERIAL",
-        "supplier": "STEWARTS & LLOYDS",
-        "supplier_contact": "PETRUS",
-        "po_nr": "PO18084",
-        "date_po": "2026-08-04",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "7/8/",
-        "status_color": "green"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2925",
-    "items": [
-      {
-        "component": "MATERIAL",
-        "supplier": "TW PROFILE",
-        "supplier_contact": "SHAUN",
-        "po_nr": "PO18178",
-        "date_po": "2026-08-13",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "MATERIAL (BUTYL SEALS)",
         "supplier": "CUSTOMER SEALS",
@@ -15204,22 +12851,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORMAN",
+    "project_name": "PLATE MATERIAL",
     "ac_number": "AC2924",
     "items": [
-      {
-        "component": "PLATE MATERIAL",
-        "supplier": "GENESIS",
-        "supplier_contact": "ANNELIZE",
-        "po_nr": "PO18265",
-        "date_po": "2026-08-20",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "MATERIAL (CONICAL SECTION & SEAL RING)",
         "supplier": "STEELCORP",
@@ -15247,22 +12882,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2904",
+    "owner": "NORLENE",
+    "project_name": "VRN Plate material",
+    "ac_number": "AC2904 & AC2905 - TROMMEL & AC2906 & AC2907 - BALL RET",
     "items": [
-      {
-        "component": "VRN Plate material",
-        "supplier": "Macsteel",
-        "supplier_contact": "Wilna",
-        "po_nr": "PO18114",
-        "date_po": "2026-08-06",
-        "received": true,
-        "date_received": "",
-        "followed_up": true,
-        "comments": "RIF",
-        "status_color": "purple"
-      },
       {
         "component": "S355JR plate material",
         "supplier": "Genesis",
@@ -15314,60 +12937,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2929",
-    "items": [
-      {
-        "component": "MATERIAL",
-        "supplier": "STEWARTS & LLOYDS",
-        "supplier_contact": "PETRUS",
-        "po_nr": "PO18168",
-        "date_po": "2026-08-13",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2931",
-    "items": [
-      {
-        "component": "MATERIAL (BUTYL)",
-        "supplier": "CUSTOM SEAL",
-        "supplier_contact": "JOHN",
-        "po_nr": "PO18172",
-        "date_po": "2026-08-13",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORMAN",
+    "project_name": "PLATE MATERIAL",
     "ac_number": "AC2930",
     "items": [
-      {
-        "component": "PLATE MATERIAL",
-        "supplier": "GENESIS",
-        "supplier_contact": "ANNELIZE",
-        "po_nr": "PO18265",
-        "date_po": "2026-08-20",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "MATERIAL (RECT BAR)",
         "supplier": "TW PROFILE",
@@ -15383,41 +12956,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2928",
-    "items": [
-      {
-        "component": "RUBBER LINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Machining - flatness check non located main bearing base",
     "ac_number": "AC2878",
     "items": [
-      {
-        "component": "Machining - flatness check non located main bearing base",
-        "supplier": "Scott turner",
-        "supplier_contact": "Martin",
-        "po_nr": "PO18096",
-        "date_po": "2026-08-05",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "Machining non located main bearing base",
         "supplier": "Scott turner",
@@ -15505,41 +13047,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
-    "ac_number": "AC2880",
-    "items": [
-      {
-        "component": "Machining",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      }
-    ]
-  },
-  {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Felt seals",
     "ac_number": "AC2884",
     "items": [
-      {
-        "component": "Felt seals",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
       {
         "component": "Gaskets",
         "supplier": "",
@@ -15579,22 +13090,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORMAN",
+    "project_name": "Plate material",
     "ac_number": "AC2934",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
       {
         "component": "Structural material",
         "supplier": "NJR STEEL",
@@ -15646,22 +13145,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Plate material",
     "ac_number": "AC2873",
     "items": [
-      {
-        "component": "Plate material",
-        "supplier": "Genesis",
-        "supplier_contact": "Annelize",
-        "po_nr": "PO18265",
-        "date_po": "2026-08-20",
-        "received": true,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "green"
-      },
       {
         "component": "Structural material - 65NB pipe",
         "supplier": "Stewarts & lyods",
@@ -15689,23 +13176,11 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORMAN",
+    "project_name": "PLATE MATERIAL",
     "ac_number": "AC2943",
     "items": [
       {
-        "component": "PLATE MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
-      {
         "component": "STRUCTURAL MATERIAL",
         "supplier": "",
         "supplier_contact": "",
@@ -15756,23 +13231,11 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORMAN",
+    "project_name": "PLATE MATERIAL",
     "ac_number": "AC2942",
     "items": [
       {
-        "component": "PLATE MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
-      {
         "component": "STRUCTURAL MATERIAL",
         "supplier": "",
         "supplier_contact": "",
@@ -15823,22 +13286,10 @@
     ]
   },
   {
-    "owner": "UNASSIGNED",
-    "project_name": "",
+    "owner": "NORLENE",
+    "project_name": "Structural material",
     "ac_number": "AC2890",
     "items": [
-      {
-        "component": "Structural material",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
       {
         "component": "Shims",
         "supplier": "",
