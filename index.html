@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>ALLCON // Buyout & Project Tracking</title>
+  <title>ALLCON // Buyout Portal</title>
   <style>
     :root {
       --bg-dark: #121212;
@@ -11,36 +11,35 @@
       --text-grey: #a0a0a0;
       --norman-blue: #3a86ff;
       --norlene-pink: #ff007f;
-      
-      /* Updated Exact Status Colors */
-      --status-green: #2ecc71;   /* FINISH */
-      --status-orange: #e67e22;  /* ORDER SENT, NOT RECEIVED */
-      --status-purple: #9b59b6;  /* QUERY / CHECK COMMENTS */
-      --status-red: #e74c3c;     /* ON HOLD */
-      --status-white: #ffffff;   /* WAITING FOR QUOTES OR FEEDBACK */
+      --status-green: #2ecc71;
+      --status-orange: #e67e22;
+      --status-purple: #9b59b6;
+      --status-red: #e74c3c;
+      --status-white: #ffffff;
     }
 
-    body { font-family: 'Segoe UI', sans-serif; background: var(--bg-dark); color: var(--text-main); margin: 20px; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg-dark); color: var(--text-main); margin: 0; padding: 25px; }
+    h1 { margin-top: 0; }
+    
     .controls { margin-bottom: 25px; display: flex; gap: 10px; }
-    button { background: #2a2a2a; color: #fff; border: 1px solid #444; padding: 10px 18px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    button { background: #2a2a2a; color: #fff; border: 1px solid #444; padding: 10px 18px; border-radius: 6px; cursor: pointer; font-weight: bold; }
     button:hover { background: #333; }
 
-    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 20px; }
-    .card { background: var(--card-bg); border-radius: 8px; padding: 18px; border: 1px solid #2d2d2d; cursor: pointer; transition: transform 0.1s ease; }
-    .card:hover { border-color: #555; }
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+    .card { background: var(--card-bg); border-radius: 10px; padding: 20px; border: 1px solid #2d2d2d; cursor: pointer; transition: transform 0.15s, border-color 0.15s; }
+    .card:hover { border-color: #555; transform: translateY(-2px); }
     
-    .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
-    .ac-number { font-size: 1.2rem; font-weight: bold; color: #fff; }
-    .project-name { font-size: 0.95rem; color: var(--text-grey); margin-top: 4px; }
+    .card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 12px; gap: 10px; }
+    .ac-number { font-size: 1.1rem; font-weight: bold; color: #fff; line-height: 1.3; }
+    .project-name { font-size: 0.9rem; color: var(--text-grey); margin-top: 4px; }
     
-    .owner-badge { font-weight: bold; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; text-transform: uppercase; }
+    .owner-badge { font-weight: bold; padding: 4px 10px; border-radius: 12px; font-size: 0.75rem; text-transform: uppercase; white-space: nowrap; }
     .owner-norman { background: rgba(58, 134, 255, 0.15); color: var(--norman-blue); border: 1px solid var(--norman-blue); }
     .owner-norlene { background: rgba(255, 0, 127, 0.15); color: var(--norlene-pink); border: 1px solid var(--norlene-pink); }
+    .owner-unassigned { background: rgba(255, 255, 255, 0.1); color: #aaa; border: 1px solid #555; }
 
-    .status-bar { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; padding-top: 10px; border-top: 1px solid #2a2a2a; }
+    .status-bar { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; padding-top: 12px; border-top: 1px solid #2a2a2a; }
     .dots-container { display: flex; gap: 8px; }
-    
-    /* Dots matching defined status schema */
     .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
     .dot-green { background: var(--status-green); }
     .dot-orange { background: var(--status-orange); }
@@ -48,19 +47,22 @@
     .dot-red { background: var(--status-red); }
     .dot-white { background: var(--status-white); opacity: 0.7; border: 1px solid #666; }
 
-    .days-badge { font-size: 0.8rem; font-weight: bold; color: #ff9900; background: rgba(255, 153, 0, 0.1); padding: 2px 8px; border-radius: 4px; }
+    /* Modal Overlay UI */
+    .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.8); backdrop-filter: blur(4px); z-index: 1000; justify-content: center; align-items: center; }
+    .modal-content { background: #1a1a1a; border: 1px solid #333; border-radius: 12px; width: 90%; max-width: 900px; max-height: 85vh; overflow-y: auto; padding: 30px; box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+    .modal-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; border-bottom: 1px solid #333; padding-bottom: 15px; }
+    .close-btn { background: none; border: none; color: #aaa; font-size: 1.8rem; cursor: pointer; padding: 0; }
+    .close-btn:hover { color: #fff; }
 
-    .details-table { display: none; margin-top: 15px; width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    .card.expanded .details-table { display: table; }
-    .details-table th, .details-table td { border: 1px solid #333; padding: 8px; text-align: left; }
-    .details-table th { background: #181818; color: var(--text-grey); }
-
-    /* Row highlight classes for expanded view */
-    .row-green { background: rgba(46, 204, 113, 0.15); }
-    .row-orange { background: rgba(230, 126, 34, 0.15); }
-    .row-purple { background: rgba(155, 89, 182, 0.15); }
-    .row-red { background: rgba(231, 76, 60, 0.15); }
-    .row-white { background: transparent; }
+    .item-card { background: #242424; border-radius: 8px; padding: 15px; margin-bottom: 12px; border-left: 4px solid #555; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 10px; }
+    .item-card.border-green { border-left-color: var(--status-green); }
+    .item-card.border-orange { border-left-color: var(--status-orange); }
+    .item-card.border-purple { border-left-color: var(--status-purple); }
+    .item-card.border-red { border-left-color: var(--status-red); }
+    .item-card.border-white { border-left-color: var(--status-white); }
+    
+    .field-label { font-size: 0.75rem; text-transform: uppercase; color: var(--text-grey); margin-bottom: 2px; }
+    .field-value { font-size: 0.9rem; font-weight: 500; }
   </style>
 </head>
 <body>
@@ -73,6 +75,20 @@
   </div>
 
   <div id="card-grid" class="card-grid"></div>
+
+  <!-- Detail Modal -->
+  <div id="detail-modal" class="modal-overlay" onclick="closeModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div>
+          <h2 id="modal-ac" style="margin:0; color:#fff;"></h2>
+          <div id="modal-project" style="color:var(--text-grey); margin-top:4px;"></div>
+        </div>
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+      </div>
+      <div id="modal-items"></div>
+    </div>
+  </div>
 
   <script>
     let projectsData = [];
@@ -90,77 +106,82 @@
 
       const filtered = filterOwner === 'ALL' 
         ? projectsData 
-        : projectsData.filter(p => p.owner === filterOwner);
+        : projectsData.filter(p => p.owner.toUpperCase() === filterOwner.toUpperCase());
 
-      filtered.forEach((p) => {
+      filtered.forEach((p, index) => {
         const colors = new Set();
-        let maxDaysPending = 0;
-
-        p.items.forEach(item => {
-          colors.add(item.status_color);
-          if (item.days_unactioned && item.days_unactioned > maxDaysPending) {
-            maxDaysPending = item.days_unactioned;
-          }
-        });
+        p.items.forEach(item => colors.add(item.status_color));
 
         const dotsHTML = Array.from(colors)
           .map(c => `<span class="dot dot-${c}" title="${c.toUpperCase()}"></span>`).join('');
 
-        const ownerClass = p.owner === 'NORLENE' ? 'owner-norlene' : 'owner-norman';
-
-        let tableRowsHTML = '';
-        p.items.forEach(item => {
-          tableRowsHTML += `
-            <tr class="row-${item.status_color}">
-              <td><strong>${item.component}</strong></td>
-              <td>${item.supplier || '-'}</td>
-              <td>${item.supplier_contact || '-'}</td>
-              <td>${item.po_nr || '-'}</td>
-              <td>${item.date_po || '-'}</td>
-              <td>${item.received ? 'YES' : 'NO'}</td>
-              <td>${item.date_received || '-'}</td>
-              <td>${item.comments || '-'}</td>
-            </tr>
-          `;
-        });
+        let ownerClass = 'owner-unassigned';
+        if (p.owner.toUpperCase() === 'NORMAN') ownerClass = 'owner-norman';
+        if (p.owner.toUpperCase() === 'NORLENE') ownerClass = 'owner-norlene';
 
         const cardHTML = `
-          <div class="card" onclick="this.classList.toggle('expanded')">
+          <div class="card" onclick="openModal(${index}, '${filterOwner}')">
             <div class="card-header">
               <div>
-                <div class="ac-number">${p.ac_number || 'N/A'}</div>
-                <div class="project-name">${p.project_name || 'Unnamed Project'}</div>
+                <div class="ac-number">${p.ac_number}</div>
+                <div class="project-name">${p.project_name}</div>
               </div>
               <span class="owner-badge ${ownerClass}">${p.owner}</span>
             </div>
-
             <div class="status-bar">
               <div class="dots-container">${dotsHTML}</div>
-              ${maxDaysPending > 0 ? `<div class="days-badge">${maxDaysPending}d Pending</div>` : ''}
+              <span style="font-size:0.8rem; color:var(--text-grey);">${p.items.length} items</span>
             </div>
-
-            <table class="details-table">
-              <thead>
-                <tr>
-                  <th>Component</th>
-                  <th>Supplier</th>
-                  <th>Contact</th>
-                  <th>PO NR</th>
-                  <th>PO Date</th>
-                  <th>Rec.</th>
-                  <th>Rec. Date</th>
-                  <th>Comments</th>
-                </tr>
-              </thead>
-              <tbody>
-                ${tableRowsHTML}
-              </tbody>
-            </table>
           </div>
         `;
-
         grid.innerHTML += cardHTML;
       });
+    }
+
+    function openModal(index, filterOwner) {
+      const filtered = filterOwner === 'ALL' 
+        ? projectsData 
+        : projectsData.filter(p => p.owner.toUpperCase() === filterOwner.toUpperCase());
+      
+      const p = filtered[index];
+      document.getElementById('modal-ac').innerText = p.ac_number;
+      document.getElementById('modal-project').innerText = p.project_name + " (" + p.owner + ")";
+
+      const itemsContainer = document.getElementById('modal-items');
+      itemsContainer.innerHTML = '';
+
+      p.items.forEach(i => {
+        itemsContainer.innerHTML += `
+          <div class="item-card border-${i.status_color}">
+            <div>
+              <div class="field-label">Component</div>
+              <div class="field-value"><strong>${i.component}</strong></div>
+            </div>
+            <div>
+              <div class="field-label">Supplier</div>
+              <div class="field-value">${i.supplier || '-'} (${i.supplier_contact || '-'})</div>
+            </div>
+            <div>
+              <div class="field-label">PO / Date</div>
+              <div class="field-value">${i.po_nr || '-'} ${i.date_po ? '/ ' + i.date_po : ''}</div>
+            </div>
+            <div>
+              <div class="field-label">Received</div>
+              <div class="field-value">${i.received ? 'YES (' + (i.date_received || 'No date') + ')' : 'NO'}</div>
+            </div>
+            <div style="grid-column: 1 / -1;">
+              <div class="field-label">Comments / Status</div>
+              <div class="field-value" style="color:#ffcc00;">${i.comments || 'No comments'}</div>
+            </div>
+          </div>
+        `;
+      });
+
+      document.getElementById('detail-modal').style.display = 'flex';
+    }
+
+    function closeModal(e) {
+      document.getElementById('detail-modal').style.display = 'none';
     }
   </script>
 </body>
