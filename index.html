@@ -15,6 +15,7 @@
       --status-orange: #e67e22;
       --status-purple: #9b59b6;
       --status-red: #e74c3c;
+      --status-yellow: #f1c40f;
       --status-white: #ffffff;
     }
 
@@ -56,6 +57,7 @@
     .dot-orange { background: var(--status-orange); }
     .dot-purple { background: var(--status-purple); }
     .dot-red { background: var(--status-red); }
+    .dot-yellow { background: var(--status-yellow); }
     .dot-white { background: var(--status-white); opacity: 0.7; border: 1px solid #666; }
 
     /* Modal Overlay UI */
@@ -70,6 +72,7 @@
     .item-card.border-orange { border-left-color: var(--status-orange); }
     .item-card.border-purple { border-left-color: var(--status-purple); }
     .item-card.border-red { border-left-color: var(--status-red); }
+    .item-card.border-yellow { border-left-color: var(--status-yellow); }
     .item-card.border-white { border-left-color: var(--status-white); }
     
     .field-label { font-size: 0.75rem; text-transform: uppercase; color: var(--text-grey); margin-bottom: 2px; }
@@ -81,7 +84,6 @@
   <h1>ALLCON BUYOUT PORTAL</h1>
   
   <div class="toolbar">
-    <!-- Owner Filter Dropdown -->
     <select id="owner-select" onchange="filterAndRender()">
       <option value="ALL">Show All Owners</option>
       <option value="NORMAN">Norman</option>
@@ -89,13 +91,11 @@
       <option value="UNASSIGNED">Unassigned</option>
     </select>
 
-    <!-- Sorting Filter Dropdown -->
     <select id="sort-select" onchange="filterAndRender()">
       <option value="NEWEST">Newest First (Sheet Bottom)</option>
       <option value="OLDEST">Oldest First (Sheet Top)</option>
     </select>
 
-    <!-- Search Input -->
     <input type="text" id="search-input" class="search-input" placeholder="Search by Project Name or AC Number..." oninput="filterAndRender()">
   </div>
 
@@ -118,6 +118,15 @@
   <script>
     let projectsData = [];
 
+    const STATUS_LABELS = {
+      'white': 'NOT ACTIONED',
+      'green': 'FINISH',
+      'orange': 'ORDER SENT, NOT RECEIVED',
+      'purple': 'QUERY / CHECK COMMENTS',
+      'red': 'ON HOLD',
+      'yellow': 'WAITING FOR QUOTES OR FEEDBACK'
+    };
+
     fetch('projects_data.json')
       .then(res => res.json())
       .then(data => {
@@ -133,7 +142,6 @@
       const grid = document.getElementById('card-grid');
       grid.innerHTML = '';
 
-      // 1. Filter by Owner & Search Query
       let processed = projectsData.filter(p => {
         const matchesOwner = (ownerFilter === 'ALL') || (p.owner.toUpperCase() === ownerFilter.toUpperCase());
         const matchesSearch = !query || 
@@ -143,18 +151,16 @@
         return matchesOwner && matchesSearch;
       });
 
-      // 2. Sort Order (Newest First reverses array from Smartsheet order)
       if (sortOrder === 'NEWEST') {
         processed = [...processed].reverse();
       }
 
-      // 3. Render Cards
       processed.forEach(p => {
         const colors = new Set();
         p.items.forEach(item => colors.add(item.status_color));
 
         const dotsHTML = Array.from(colors)
-          .map(c => `<span class="dot dot-${c}" title="${c.toUpperCase()}"></span>`).join('');
+          .map(c => `<span class="dot dot-${c}" title="${STATUS_LABELS[c] || c.toUpperCase()}"></span>`).join('');
 
         let ownerClass = 'owner-unassigned';
         if (p.owner.toUpperCase() === 'NORMAN') ownerClass = 'owner-norman';
@@ -207,7 +213,7 @@
               <div class="field-value">${i.received ? 'YES (' + (i.date_received || 'No date') + ')' : 'NO'}</div>
             </div>
             <div style="grid-column: 1 / -1;">
-              <div class="field-label">Comments / Status</div>
+              <div class="field-label">Comments / Status (${STATUS_LABELS[i.status_color]})</div>
               <div class="field-value" style="color:#ffcc00;">${i.comments || 'No comments'}</div>
             </div>
           </div>
