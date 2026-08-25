@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ALLCON // Buyout & Project Tracking</title>
+  <style>
+    :root {
+      --bg-dark: #121212;
+      --card-bg: #1e1e1e;
+      --text-main: #e0e0e0;
+      --text-grey: #a0a0a0;
+      --norman-blue: #3a86ff;
+      --norlene-pink: #ff007f;
+      
+      /* Updated Exact Status Colors */
+      --status-green: #2ecc71;   /* FINISH */
+      --status-orange: #e67e22;  /* ORDER SENT, NOT RECEIVED */
+      --status-purple: #9b59b6;  /* QUERY / CHECK COMMENTS */
+      --status-red: #e74c3c;     /* ON HOLD */
+      --status-white: #ffffff;   /* WAITING FOR QUOTES OR FEEDBACK */
+    }
+
+    body { font-family: 'Segoe UI', sans-serif; background: var(--bg-dark); color: var(--text-main); margin: 20px; }
+    .controls { margin-bottom: 25px; display: flex; gap: 10px; }
+    button { background: #2a2a2a; color: #fff; border: 1px solid #444; padding: 10px 18px; border-radius: 4px; cursor: pointer; font-weight: bold; }
+    button:hover { background: #333; }
+
+    .card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 20px; }
+    .card { background: var(--card-bg); border-radius: 8px; padding: 18px; border: 1px solid #2d2d2d; cursor: pointer; transition: transform 0.1s ease; }
+    .card:hover { border-color: #555; }
+    
+    .card-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+    .ac-number { font-size: 1.2rem; font-weight: bold; color: #fff; }
+    .project-name { font-size: 0.95rem; color: var(--text-grey); margin-top: 4px; }
+    
+    .owner-badge { font-weight: bold; padding: 4px 10px; border-radius: 12px; font-size: 0.8rem; text-transform: uppercase; }
+    .owner-norman { background: rgba(58, 134, 255, 0.15); color: var(--norman-blue); border: 1px solid var(--norman-blue); }
+    .owner-norlene { background: rgba(255, 0, 127, 0.15); color: var(--norlene-pink); border: 1px solid var(--norlene-pink); }
+
+    .status-bar { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; padding-top: 10px; border-top: 1px solid #2a2a2a; }
+    .dots-container { display: flex; gap: 8px; }
+    
+    /* Dots matching defined status schema */
+    .dot { width: 12px; height: 12px; border-radius: 50%; display: inline-block; }
+    .dot-green { background: var(--status-green); }
+    .dot-orange { background: var(--status-orange); }
+    .dot-purple { background: var(--status-purple); }
+    .dot-red { background: var(--status-red); }
+    .dot-white { background: var(--status-white); opacity: 0.7; border: 1px solid #666; }
+
+    .days-badge { font-size: 0.8rem; font-weight: bold; color: #ff9900; background: rgba(255, 153, 0, 0.1); padding: 2px 8px; border-radius: 4px; }
+
+    .details-table { display: none; margin-top: 15px; width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    .card.expanded .details-table { display: table; }
+    .details-table th, .details-table td { border: 1px solid #333; padding: 8px; text-align: left; }
+    .details-table th { background: #181818; color: var(--text-grey); }
+
+    /* Row highlight classes for expanded view */
+    .row-green { background: rgba(46, 204, 113, 0.15); }
+    .row-orange { background: rgba(230, 126, 34, 0.15); }
+    .row-purple { background: rgba(155, 89, 182, 0.15); }
+    .row-red { background: rgba(231, 76, 60, 0.15); }
+    .row-white { background: transparent; }
+  </style>
+</head>
+<body>
+
+  <h1>ALLCON BUYOUT PORTAL</h1>
+  <div class="controls">
+    <button onclick="renderCards('ALL')">Show All</button>
+    <button onclick="renderCards('NORMAN')">Norman's Projects</button>
+    <button onclick="renderCards('NORLENE')">Norlene's Projects</button>
+  </div>
+
+  <div id="card-grid" class="card-grid"></div>
+
+  <script>
+    let projectsData = [];
+
+    fetch('projects_data.json')
+      .then(res => res.json())
+      .then(data => {
+        projectsData = data;
+        renderCards('ALL');
+      });
+
+    function renderCards(filterOwner) {
+      const grid = document.getElementById('card-grid');
+      grid.innerHTML = '';
+
+      const filtered = filterOwner === 'ALL' 
+        ? projectsData 
+        : projectsData.filter(p => p.owner === filterOwner);
+
+      filtered.forEach((p) => {
+        const colors = new Set();
+        let maxDaysPending = 0;
+
+        p.items.forEach(item => {
+          colors.add(item.status_color);
+          if (item.days_unactioned && item.days_unactioned > maxDaysPending) {
+            maxDaysPending = item.days_unactioned;
+          }
+        });
+
+        const dotsHTML = Array.from(colors)
+          .map(c => `<span class="dot dot-${c}" title="${c.toUpperCase()}"></span>`).join('');
+
+        const ownerClass = p.owner === 'NORLENE' ? 'owner-norlene' : 'owner-norman';
+
+        let tableRowsHTML = '';
+        p.items.forEach(item => {
+          tableRowsHTML += `
+            <tr class="row-${item.status_color}">
+              <td><strong>${item.component}</strong></td>
+              <td>${item.supplier || '-'}</td>
+              <td>${item.supplier_contact || '-'}</td>
+              <td>${item.po_nr || '-'}</td>
+              <td>${item.date_po || '-'}</td>
+              <td>${item.received ? 'YES' : 'NO'}</td>
+              <td>${item.date_received || '-'}</td>
+              <td>${item.comments || '-'}</td>
+            </tr>
+          `;
+        });
+
+        const cardHTML = `
+          <div class="card" onclick="this.classList.toggle('expanded')">
+            <div class="card-header">
+              <div>
+                <div class="ac-number">${p.ac_number || 'N/A'}</div>
+                <div class="project-name">${p.project_name || 'Unnamed Project'}</div>
+              </div>
+              <span class="owner-badge ${ownerClass}">${p.owner}</span>
+            </div>
+
+            <div class="status-bar">
+              <div class="dots-container">${dotsHTML}</div>
+              ${maxDaysPending > 0 ? `<div class="days-badge">${maxDaysPending}d Pending</div>` : ''}
+            </div>
+
+            <table class="details-table">
+              <thead>
+                <tr>
+                  <th>Component</th>
+                  <th>Supplier</th>
+                  <th>Contact</th>
+                  <th>PO NR</th>
+                  <th>PO Date</th>
+                  <th>Rec.</th>
+                  <th>Rec. Date</th>
+                  <th>Comments</th>
+                </tr>
+              </thead>
+              <tbody>
+                ${tableRowsHTML}
+              </tbody>
+            </table>
+          </div>
+        `;
+
+        grid.innerHTML += cardHTML;
+      });
+    }
+  </script>
+</body>
+</html>
