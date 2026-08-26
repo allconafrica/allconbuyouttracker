@@ -12658,11 +12658,11 @@
         "supplier_contact": "Michael",
         "po_nr": "PO17915",
         "date_po": "2026-07-21",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "complete waiting UT testing on 70mm barrel",
-        "status_color": "yellow"
+        "comments": "RIF",
+        "status_color": "purple"
       }
     ]
   },
@@ -13904,15 +13904,15 @@
       },
       {
         "component": "STRUCTURAL MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "STEWARTS & LLOYDS",
+        "supplier_contact": "PETRUS",
+        "po_nr": "PO18328",
+        "date_po": "2026-08-26",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
