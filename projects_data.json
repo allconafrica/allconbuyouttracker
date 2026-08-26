@@ -13978,8 +13978,27 @@
     "items": [
       {
         "component": "FELT SEAL",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "KOURROUSSA NCPI 26494",
+    "ac_number": "AC2947",
+    "items": [
+      {
+        "component": "FELT SEAL & HOLDER",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
         "po_nr": "",
         "date_po": "",
         "received": false,
