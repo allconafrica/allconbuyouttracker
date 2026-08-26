@@ -2,7 +2,7 @@ name: Daily Buyout Tracker Digest
 
 on:
   schedule:
-    # 05:00 UTC = 07:00 SAST (UTC+2)
+    # 05:05 UTC = 07:05 SAST (UTC+2)
     - cron: '0 5 * * *'
   workflow_dispatch:
 
