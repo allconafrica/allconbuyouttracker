@@ -13667,15 +13667,15 @@
       },
       {
         "component": "STRUCTURAL MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "STWEARTS & LLOYDS",
+        "supplier_contact": "PETRUS",
+        "po_nr": "PO18311",
+        "date_po": "2026-08-25",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "MACHINING",
@@ -13734,15 +13734,15 @@
       },
       {
         "component": "STRUCTURAL MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "STWEARTS & LLOYDS",
+        "supplier_contact": "PETRUS",
+        "po_nr": "PO18312",
+        "date_po": "2026-08-25",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "MACHINING",
@@ -13812,7 +13812,7 @@
         "status_color": "white"
       },
       {
-        "component": "Rubber lining",
+        "component": "Rubber lining includes the stripping",
         "supplier": "Stetan",
         "supplier_contact": "Steve",
         "po_nr": "",
