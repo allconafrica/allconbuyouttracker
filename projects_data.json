@@ -6821,11 +6821,11 @@
         "supplier_contact": "Albert",
         "po_nr": "PO17589",
         "date_po": "2026-07-15",
-        "received": true,
+        "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "green"
+        "status_color": "orange"
       }
     ]
   },
@@ -9789,18 +9789,6 @@
         "status_color": "green"
       },
       {
-        "component": "Machining",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "WFQ",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
-      {
         "component": "Cone segment material",
         "supplier": "SSAB",
         "supplier_contact": "Solomons",
@@ -10949,7 +10937,7 @@
         "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "",
+        "comments": "RIF",
         "status_color": "purple"
       },
       {
@@ -13053,7 +13041,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "collecting 26/08/",
+        "comments": "RIF",
         "status_color": "orange"
       },
       {
@@ -13151,7 +13139,7 @@
       },
       {
         "component": "MACHINING (20-08-2026)",
-        "supplier": "MATALA",
+        "supplier": "MATLA",
         "supplier_contact": "KOBUS",
         "po_nr": "",
         "date_po": "",
@@ -13348,6 +13336,18 @@
     "ac_number": "AC2928",
     "items": [
       {
+        "component": "ROLLING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
         "component": "RUBBER LINING",
         "supplier": "",
         "supplier_contact": "",
@@ -13372,11 +13372,11 @@
         "supplier_contact": "Martin",
         "po_nr": "PO18096",
         "date_po": "2026-08-05",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Machining non located main bearing base",
@@ -13384,11 +13384,11 @@
         "supplier_contact": "Martin",
         "po_nr": "PO18177",
         "date_po": "2026-08-13",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Machining located main bearing base",
@@ -13396,11 +13396,11 @@
         "supplier_contact": "Martin",
         "po_nr": "PO18283",
         "date_po": "2025-08-24",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "90x90x6 angles for raincovers",
@@ -13667,7 +13667,7 @@
       },
       {
         "component": "STRUCTURAL MATERIAL",
-        "supplier": "STWEARTS & LLOYDS",
+        "supplier": "STEWARTS & LLOYDS",
         "supplier_contact": "PETRUS",
         "po_nr": "PO18311",
         "date_po": "2026-08-25",
@@ -13980,13 +13980,13 @@
         "component": "FELT SEAL",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18339",
+        "date_po": "2026-08-27",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -13999,13 +13999,32 @@
         "component": "FELT SEAL & HOLDER",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18335",
+        "date_po": "2026-08-26",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "KEMIX -  E70625 - FEED LAUNDER & PIPES",
+    "ac_number": "AC2956 & AC2957",
+    "items": [
+      {
+        "component": "Material for launder 1 and 2",
+        "supplier": "Steelcorp",
+        "supplier_contact": "Michael",
+        "po_nr": "PO18333",
+        "date_po": "2026-08-26",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   }
