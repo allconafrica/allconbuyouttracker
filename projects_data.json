@@ -8206,6 +8206,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "PT100 Brackets",
+        "supplier": "Bekker steel",
+        "supplier_contact": "Lelanie",
+        "po_nr": "PO18358",
+        "date_po": "2026-08-28",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -8805,7 +8817,7 @@
         "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "Dep 40% paid",
+        "comments": "RIF",
         "status_color": "green"
       },
       {
@@ -10599,8 +10611,8 @@
         "component": "Raincover & labyrinth rolling",
         "supplier": "Zuidersma",
         "supplier_contact": "Basie",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18167",
+        "date_po": "2026-08-12",
         "received": true,
         "date_received": "",
         "followed_up": false,
@@ -12844,11 +12856,11 @@
         "supplier_contact": "Heinz",
         "po_nr": "PO18155",
         "date_po": "2026-08-12",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "1\" breather",
@@ -13121,9 +13133,9 @@
         "date_po": "2026-08-13",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "Requested update from TW",
+        "status_color": "purple"
       },
       {
         "component": "MATERIAL (BUTYL SEALS)",
@@ -13133,9 +13145,9 @@
         "date_po": "2026-08-17",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "Requested update from CS",
+        "status_color": "purple"
       },
       {
         "component": "MACHINING (20-08-2026)",
@@ -13293,9 +13305,9 @@
         "date_po": "2026-08-13",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "Requested update from CS",
+        "status_color": "purple"
       }
     ]
   },
@@ -13324,9 +13336,9 @@
         "date_po": "2026-08-13",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "Requested update from TW",
+        "status_color": "purple"
       }
     ]
   },
@@ -13335,18 +13347,6 @@
     "project_name": "MIL26.007 - SM BELL MOUTH",
     "ac_number": "AC2928",
     "items": [
-      {
-        "component": "ROLLING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
       {
         "component": "RUBBER LINING",
         "supplier": "",
@@ -13490,15 +13490,15 @@
     "items": [
       {
         "component": "Felt seals",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "custom seals",
+        "supplier_contact": "John",
+        "po_nr": "PO18343",
+        "date_po": "2026-08-28",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Gaskets",
@@ -13514,15 +13514,15 @@
       },
       {
         "component": "Structural material",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Stewarts",
+        "supplier_contact": "Jakobus",
+        "po_nr": "PO18359",
+        "date_po": "2026-08-28",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Fasteners",
@@ -13545,15 +13545,15 @@
     "items": [
       {
         "component": "Plate material",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Genesis",
+        "supplier_contact": "Annelize",
+        "po_nr": "PO18348",
+        "date_po": "2026-08-28",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Structural material",
@@ -13569,8 +13569,8 @@
       },
       {
         "component": "Machining on front flange",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "SCOTT TURNER",
+        "supplier_contact": "MARTIN",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13796,20 +13796,20 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "looking for stock",
         "status_color": "white"
       },
       {
         "component": "Shims",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "TWP",
+        "supplier_contact": "Shaun",
+        "po_nr": "PO18324",
+        "date_po": "2026-08-26",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Rubber lining includes the stripping",
@@ -13827,13 +13827,13 @@
         "component": "Seals & damping pads",
         "supplier": "Custom seal",
         "supplier_contact": "John",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18349",
+        "date_po": "2026-08-28",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Cup washers & rubber inserts",
@@ -13870,18 +13870,6 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
-      },
-      {
-        "component": "Vesconite bushes",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
       }
     ]
   },
@@ -13908,11 +13896,11 @@
         "supplier_contact": "PETRUS",
         "po_nr": "PO18328",
         "date_po": "2026-08-26",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -13934,9 +13922,9 @@
         "status_color": "white"
       },
       {
-        "component": "STRUCTURAL MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
+        "component": "PLATE MATERIAL",
+        "supplier": "MINING PRESSURE SYSTEMS",
+        "supplier_contact": "IVOR",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13959,15 +13947,15 @@
       },
       {
         "component": "FASTENERS",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "IMPACT BOLT & NUT",
+        "supplier_contact": "RUAN",
+        "po_nr": "PO18366",
+        "date_po": "2026-08-28",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14025,6 +14013,61 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MARMATO BM PO SPA26.363-011 - BALL MILL - DE & FE INSERTS",
+    "ac_number": "AC2948 & AC2949",
+    "items": [
+      {
+        "component": "MATERIAL",
+        "supplier": "TW PROFILE",
+        "supplier_contact": "SHAUN",
+        "po_nr": "PO18353",
+        "date_po": "2026-08-28",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "MACHINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "RUBBER LINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "TECTYL COATING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   }
