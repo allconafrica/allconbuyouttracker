@@ -13518,11 +13518,11 @@
         "supplier_contact": "Jakobus",
         "po_nr": "PO18359",
         "date_po": "2026-08-28",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Fasteners",
@@ -13671,11 +13671,11 @@
         "supplier_contact": "PETRUS",
         "po_nr": "PO18311",
         "date_po": "2026-08-25",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "MACHINING",
@@ -13738,11 +13738,11 @@
         "supplier_contact": "PETRUS",
         "po_nr": "PO18312",
         "date_po": "2026-08-25",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "MACHINING",
@@ -14122,6 +14122,68 @@
       {
         "component": "RUBBER SEAL (BUTYL & TIVAR)",
         "supplier": "CUSTOM SEAL",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MIL26.006-017 BASEPLATE",
+    "ac_number": "AC2910, AC2911, AC2912, AC2913, AC2914, AC2915",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "MACHINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MIL26.006 - DE INSERT & FE ADAPTOR PLATES",
+    "ac_number": "AC2950, AC2951",
+    "items": [
+      {
+        "component": "RUBBER LINING",
+        "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
