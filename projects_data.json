@@ -12947,11 +12947,11 @@
         "supplier_contact": "THEO",
         "po_nr": "PO18272",
         "date_po": "2026-08-21",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -13131,10 +13131,10 @@
         "supplier_contact": "SHAUN",
         "po_nr": "PO18178",
         "date_po": "2026-08-13",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "Requested update from TW",
+        "comments": "RIF",
         "status_color": "purple"
       },
       {
@@ -14034,6 +14034,18 @@
         "status_color": "orange"
       },
       {
+        "component": "ROLLING",
+        "supplier": "ACTIVE PLATE FORMING",
+        "supplier_contact": "THEO",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
         "component": "MACHINING",
         "supplier": "",
         "supplier_contact": "",
@@ -14060,6 +14072,56 @@
       {
         "component": "TECTYL COATING",
         "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "BOMBORE SPA26.405-DT002",
+    "ac_number": "AC2968",
+    "items": [
+      {
+        "component": "RUBBER SEALS (BUTYL)",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "SADIOLA SPA26.376 - FEED CHUTE SEALS",
+    "ac_number": "AC2958, AC2959, AC2960, AC2961",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "RUBBER SEAL (BUTYL & TIVAR)",
+        "supplier": "CUSTOM SEAL",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
