@@ -13920,19 +13920,14 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
-      },
-      {
-        "component": "PLATE MATERIAL",
-        "supplier": "MINING PRESSURE SYSTEMS",
-        "supplier_contact": "IVOR",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
-      },
+      }
+    ]
+  },
+  {
+    "owner": "UNASSIGNED",
+    "project_name": "PLATE MATERIAL",
+    "ac_number": "USING OFFCUTS FROM AC2814 - MATRIN SETASIDE 160MM",
+    "items": [
       {
         "component": "RUBBER LINING",
         "supplier": "",
