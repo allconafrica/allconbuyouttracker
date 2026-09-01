@@ -14104,15 +14104,15 @@
     "items": [
       {
         "component": "PLATE MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "FAST FLAME",
+        "supplier_contact": "HEINZ",
+        "po_nr": "PO18409",
+        "date_po": "2026-09-01",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "RUBBER SEAL (BUTYL & TIVAR)",
