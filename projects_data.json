@@ -13805,11 +13805,11 @@
         "supplier_contact": "Shaun",
         "po_nr": "PO18324",
         "date_po": "2026-08-26",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Rubber lining includes the stripping",
@@ -13920,12 +13920,24 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
+      },
+      {
+        "component": "PLATE MATERIAL (800NB FLANGES)",
+        "supplier": "BTA PIPE SUPPLIES",
+        "supplier_contact": "ALLAN",
+        "po_nr": "PO18416",
+        "date_po": "2026-09-01",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
   {
     "owner": "UNASSIGNED",
-    "project_name": "PLATE MATERIAL",
+    "project_name": "PLATE MATERIAL (800NB FLANGES)",
     "ac_number": "USING OFFCUTS FROM AC2814 - MATRIN SETASIDE 160MM",
     "items": [
       {
