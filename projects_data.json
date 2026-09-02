@@ -14129,14 +14129,14 @@
       {
         "component": "RUBBER SEAL (BUTYL & TIVAR)",
         "supplier": "CUSTOM SEAL",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "JOHN",
+        "po_nr": "PO18438",
+        "date_po": "2026-09-02",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14159,6 +14159,80 @@
       },
       {
         "component": "STRUCTURAL MATERIAL",
+        "supplier": "STEWARTS & LLOYDS",
+        "supplier_contact": "PETRUS",
+        "po_nr": "PO18420",
+        "date_po": "2026-09-02",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "MACHINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MIL26.006 - DE INSERT & FE ADAPTOR PLATES",
+    "ac_number": "AC2950, AC2951",
+    "items": [
+      {
+        "component": "RUBBER LINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "BM201 THABA SPA375-011",
+    "ac_number": "AC2962 - 12FT & AC2963 - 8FT",
+    "items": [
+      {
+        "component": "PLATE MATERIAL (SCREENS)",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL (ANGLE IRON)",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "ROLLING",
         "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
@@ -14180,14 +14254,7 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
-      }
-    ]
-  },
-  {
-    "owner": "NORMAN",
-    "project_name": "MIL26.006 - DE INSERT & FE ADAPTOR PLATES",
-    "ac_number": "AC2950, AC2951",
-    "items": [
+      },
       {
         "component": "RUBBER LINING",
         "supplier": "",
