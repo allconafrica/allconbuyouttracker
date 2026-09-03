@@ -14026,8 +14026,8 @@
     "items": [
       {
         "component": "RUBBER LINING",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -14472,6 +14472,25 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MARMATO BM MIL24.001 - BM FLINGER RING",
+    "ac_number": "AC2977",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "TW PROFILE",
+        "supplier_contact": "SHAUN",
+        "po_nr": "PO18457",
+        "date_po": "2026-09-03",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   }
