@@ -13607,7 +13607,7 @@
   },
   {
     "owner": "NORLENE",
-    "project_name": "WEILY - TRUNNION BEARINGS",
+    "project_name": "WEILY - TRUNNION BEARINGS - new build",
     "ac_number": "AC2873",
     "items": [
       {
@@ -13645,6 +13645,90 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "PT100 Bracket",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Fasteners",
+        "supplier": "Impact bolt",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Neoprene gaskets",
+        "supplier": "Custom seals",
+        "supplier_contact": "",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Raincover rolling",
+        "supplier": "Zuiderma",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Shims",
+        "supplier": "Budget engineering",
+        "supplier_contact": "",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Temp lube pipe system",
+        "supplier": "Stewarts",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Breather",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   },
@@ -14027,19 +14111,19 @@
     "owner": "NORMAN",
     "project_name": "MARMATO BM PO SPA26.363-011 - BALL MILL - DE & FE INSERTS",
     "ac_number": "AC2948 & AC2949",
+    "items": []
+  },
+  {
+    "owner": "UNASSIGNED",
+    "project_name": "MATERIAL (AC2948)",
+    "ac_number": "MATERIAL (AC2948)",
+    "items": []
+  },
+  {
+    "owner": "UNASSIGNED",
+    "project_name": "MATERIAL (AC2949)",
+    "ac_number": "MATERIAL (AC2949)",
     "items": [
-      {
-        "component": "MATERIAL",
-        "supplier": "TW PROFILE",
-        "supplier_contact": "SHAUN",
-        "po_nr": "PO18353",
-        "date_po": "2026-08-28",
-        "received": false,
-        "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
-      },
       {
         "component": "ROLLING",
         "supplier": "ACTIVE PLATE FORMING",
@@ -14257,6 +14341,128 @@
       },
       {
         "component": "RUBBER LINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "KCC - GGG",
+    "ac_number": "AC2839 & AC2840",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "TW",
+        "supplier_contact": "SHAUN",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "WEILY MIL26.007 - GGG SM",
+    "ac_number": "AC2970",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL (ANGLE)",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL (PIPE)",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL (BEAM)",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "NEOPRENE GASKET",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "FELT SEAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "FASTENERS",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "BRAND PLATE",
         "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
