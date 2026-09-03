@@ -14099,13 +14099,13 @@
         "component": "RUBBER SEALS (BUTYL)",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18441",
+        "date_po": "2026-09-02",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
