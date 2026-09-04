@@ -14028,13 +14028,13 @@
         "component": "RUBBER LINING",
         "supplier": "PARM GARAY",
         "supplier_contact": "ALBERT",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18460",
+        "date_po": "2026-09-04",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "FASTENERS",
@@ -14144,8 +14144,8 @@
       },
       {
         "component": "RUBBER LINING",
-        "supplier": "STETAN",
-        "supplier_contact": "STEVE",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
@@ -14225,15 +14225,15 @@
     "items": [
       {
         "component": "PLATE MATERIAL",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "GENISIS",
+        "supplier_contact": "ANNELIZE",
+        "po_nr": "PO18468",
+        "date_po": "2026-09-04",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "STRUCTURAL MATERIAL",
@@ -14294,8 +14294,8 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "white"
+        "comments": "WAITING ON CLIENT IF BOTH SCREENS NEED REPLACEMENT",
+        "status_color": "yellow"
       },
       {
         "component": "STRUCTURAL MATERIAL (ANGLE IRON)",
@@ -14356,13 +14356,13 @@
         "component": "PLATE MATERIAL",
         "supplier": "TW",
         "supplier_contact": "SHAUN",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
