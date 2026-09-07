@@ -10713,9 +10713,9 @@
         "date_po": "2026-05-27",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "RFI WILL BE SENT 08/09",
+        "status_color": "purple"
       },
       {
         "component": "Shims",
@@ -10815,15 +10815,15 @@
       },
       {
         "component": "seal wearing machining",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Matla",
+        "supplier_contact": "kobus",
+        "po_nr": "PO18493",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "white"
+        "followed_up": true,
+        "comments": "RFI WILL BE SENT 08/09",
+        "status_color": "purple"
       },
       {
         "component": "SQR TUBE 44.5X44.5X3",
@@ -10843,11 +10843,11 @@
         "supplier_contact": "Jakobus",
         "po_nr": "PO18180",
         "date_po": "2026-08-14",
-        "received": false,
+        "received": true,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "RIF",
+        "status_color": "purple"
       },
       {
         "component": "SQR TUBE  Rolling",
@@ -10857,9 +10857,9 @@
         "date_po": "2026-08-25",
         "received": true,
         "date_received": "",
-        "followed_up": false,
+        "followed_up": true,
         "comments": "RIF",
-        "status_color": "green"
+        "status_color": "purple"
       },
       {
         "component": "Sch40 Pipe",
@@ -10869,9 +10869,9 @@
         "date_po": "2026-08-05",
         "received": true,
         "date_received": "",
-        "followed_up": false,
+        "followed_up": true,
         "comments": "RIF",
-        "status_color": "green"
+        "status_color": "purple"
       },
       {
         "component": "Flanges",
@@ -10893,9 +10893,9 @@
         "date_po": "2026-08-11",
         "received": true,
         "date_received": "",
-        "followed_up": false,
+        "followed_up": true,
         "comments": "RIF",
-        "status_color": "green"
+        "status_color": "purple"
       }
     ]
   },
@@ -13674,13 +13674,13 @@
         "component": "Neoprene gaskets",
         "supplier": "Custom seals",
         "supplier_contact": "John",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18476",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Raincover rolling",
@@ -13698,8 +13698,8 @@
         "component": "Shims",
         "supplier": "Budget engineering",
         "supplier_contact": "Michelle",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18482",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
