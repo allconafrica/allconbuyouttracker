@@ -11717,14 +11717,14 @@
       {
         "component": "Rolling of Angles",
         "supplier": "Zuidersma",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
-        "received": false,
+        "supplier_contact": "Basie",
+        "po_nr": "PO18305",
+        "date_po": "2026-08-25",
+        "received": true,
         "date_received": "",
-        "followed_up": false,
+        "followed_up": true,
         "comments": "",
-        "status_color": "white"
+        "status_color": "purple"
       },
       {
         "component": "Fittings",
