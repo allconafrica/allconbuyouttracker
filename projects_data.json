@@ -7484,7 +7484,7 @@
         "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "Partial 30/7",
+        "comments": "RIF",
         "status_color": "green"
       },
       {
@@ -8213,11 +8213,11 @@
         "supplier_contact": "Lelanie",
         "po_nr": "PO18358",
         "date_po": "2026-08-28",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -11826,15 +11826,15 @@
       },
       {
         "component": "Rubber lining",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Prm Garay",
+        "supplier_contact": "Albert",
+        "po_nr": "PO18481",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Seals & Damping pad",
@@ -13661,7 +13661,7 @@
       {
         "component": "Fasteners",
         "supplier": "Impact bolt",
-        "supplier_contact": "",
+        "supplier_contact": "Ruan",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13673,19 +13673,19 @@
       {
         "component": "Neoprene gaskets",
         "supplier": "Custom seals",
-        "supplier_contact": "",
-        "po_nr": "WFQ",
+        "supplier_contact": "John",
+        "po_nr": "",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "orange"
+        "status_color": "white"
       },
       {
         "component": "Raincover rolling",
         "supplier": "Zuiderma",
-        "supplier_contact": "",
+        "supplier_contact": "Basie",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13697,7 +13697,7 @@
       {
         "component": "Shims",
         "supplier": "Budget engineering",
-        "supplier_contact": "",
+        "supplier_contact": "Michelle",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
@@ -13709,14 +13709,14 @@
       {
         "component": "Temp lube pipe system",
         "supplier": "Stewarts",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "Jakobus",
+        "po_nr": "PO18471",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Breather",
@@ -13872,7 +13872,19 @@
     "ac_number": "AC2890",
     "items": [
       {
-        "component": "Structural material",
+        "component": "Structural material - 30 ROUBD BAR",
+        "supplier": "Stewart",
+        "supplier_contact": "Jakobus",
+        "po_nr": "PO18360",
+        "date_po": "2026-08-28",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "203x203x71kg Beams",
         "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
@@ -14146,8 +14158,8 @@
         "component": "RUBBER LINING",
         "supplier": "PARM GARAY",
         "supplier_contact": "ALBERT",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18480",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
