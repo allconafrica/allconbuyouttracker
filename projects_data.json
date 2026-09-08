@@ -9624,7 +9624,7 @@
         "status_color": "green"
       },
       {
-        "component": "Fasteners",
+        "component": "ACfAC2801",
         "supplier": "Impact Bolt",
         "supplier_contact": "Ruan",
         "po_nr": "PO17303",
@@ -10587,7 +10587,7 @@
         "component": "Temp sensor holders & Thickening plate machining",
         "supplier": "Dabaresa",
         "supplier_contact": "Michelle",
-        "po_nr": "WFQ",
+        "po_nr": "PO18504",
         "date_po": "",
         "received": false,
         "date_received": "",
@@ -11371,6 +11371,18 @@
         "followed_up": true,
         "comments": "RIF",
         "status_color": "purple"
+      },
+      {
+        "component": "Drilling & tapping plate",
+        "supplier": "Dabresa",
+        "supplier_contact": "Conrad",
+        "po_nr": "PO18504",
+        "date_po": "2026-09-08",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -12125,6 +12137,18 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      },
+      {
+        "component": "STRESS RELIEF",
+        "supplier": "TAURES (T-LINE HEAT)",
+        "supplier_contact": "TIRUS",
+        "po_nr": "PO18509",
+        "date_po": "2026-09-08",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -12847,7 +12871,7 @@
         "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "Angles for raincovers delivered to Zuidersman for rolling Partial 13/8",
+        "comments": "RIF / Angles for raincovers delivered to Zuidersman for rolling Partial 13/8",
         "status_color": "green"
       },
       {
@@ -13502,15 +13526,15 @@
       },
       {
         "component": "Gaskets",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "Custom seals",
+        "supplier_contact": "John",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Structural material",
@@ -13526,15 +13550,15 @@
       },
       {
         "component": "Fasteners",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "Impact bolt",
+        "supplier_contact": "Ruan",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14301,8 +14325,8 @@
         "component": "PLATE MATERIAL (SCREENS)",
         "supplier": "SCREEN MANUFACTURING",
         "supplier_contact": "MADELEIN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18500",
+        "date_po": "2026-09-08",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14323,7 +14347,7 @@
       },
       {
         "component": "ROLLING",
-        "supplier": "",
+        "supplier": "ZUIDERSMA",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14347,7 +14371,7 @@
       },
       {
         "component": "RUBBER LINING",
-        "supplier": "",
+        "supplier": "PARM GARAY",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14397,31 +14421,31 @@
       },
       {
         "component": "STRUCTURAL MATERIAL (ANGLE)",
-        "supplier": "",
+        "supplier": "STWEARTS / NJR",
         "supplier_contact": "",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "STRUCTURAL MATERIAL (PIPE)",
-        "supplier": "",
+        "supplier": "STWEARTS / NJR",
         "supplier_contact": "",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "STRUCTURAL MATERIAL (BEAM)",
-        "supplier": "",
+        "supplier": "CHECKING STOCK",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14457,15 +14481,15 @@
       },
       {
         "component": "FASTENERS",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "IMPACT",
+        "supplier_contact": "RUAN",
+        "po_nr": "WFQ",
+        "date_po": "2026-09-08",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "BRAND PLATE",
@@ -14497,6 +14521,37 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "EMERALD MIL26.008-013 - BASEPLATES",
+    "ac_number": "AC2971, AC2972, AC2973, AC2974",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "MACHINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   }
