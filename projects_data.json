@@ -13648,8 +13648,8 @@
       },
       {
         "component": "PT100 Bracket",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "Bekker steel",
+        "supplier_contact": "Aldo",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13662,13 +13662,13 @@
         "component": "Fasteners",
         "supplier": "Impact bolt",
         "supplier_contact": "Ruan",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Neoprene gaskets",
@@ -13720,15 +13720,15 @@
       },
       {
         "component": "Breather",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "Lubetech",
+        "supplier_contact": "Jaun",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14310,16 +14310,16 @@
         "status_color": "yellow"
       },
       {
-        "component": "STRUCTURAL MATERIAL (ANGLE IRON)",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "component": "STRUCTURAL MATERIAL (ANGLE & ROD)",
+        "supplier": "NJR STEEL",
+        "supplier_contact": "MARISKA",
+        "po_nr": "PO18495",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "ROLLING",
@@ -14366,10 +14366,10 @@
     "items": [
       {
         "component": "PLATE MATERIAL",
-        "supplier": "TW",
+        "supplier": "TW PROFILE",
         "supplier_contact": "SHAUN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18496",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
