@@ -11381,7 +11381,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "ETA 11/09",
         "status_color": "orange"
       }
     ]
@@ -11448,7 +11448,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "COLLECTION 09/09",
         "status_color": "orange"
       }
     ]
@@ -13285,8 +13285,8 @@
       },
       {
         "component": "Cone Rolling",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "Rollfab",
+        "supplier_contact": "WFQ",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13485,6 +13485,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "M12 Rivnut",
+        "supplier": "Impact  bolt",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   },
@@ -13495,15 +13507,15 @@
     "items": [
       {
         "component": "Machining",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Dabaressa",
+        "supplier_contact": "Conrad",
+        "po_nr": "PO18510",
+        "date_po": "2026-09-08",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -13787,7 +13799,7 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "",
+        "supplier": "NESSA",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -13854,7 +13866,7 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "",
+        "supplier": "NESSA",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14385,7 +14397,7 @@
   },
   {
     "owner": "NORMAN",
-    "project_name": "KCC - GGG",
+    "project_name": "KCC - GGG - SPRAY DOOR MODIFICATION",
     "ac_number": "AC2839 & AC2840",
     "items": [
       {
@@ -14483,7 +14495,7 @@
         "component": "FASTENERS",
         "supplier": "IMPACT",
         "supplier_contact": "RUAN",
-        "po_nr": "WFQ",
+        "po_nr": "PO18505",
         "date_po": "2026-09-08",
         "received": false,
         "date_received": "",
