@@ -13540,8 +13540,8 @@
         "component": "Gaskets",
         "supplier": "Custom seals",
         "supplier_contact": "John",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18534",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -13564,6 +13564,18 @@
         "component": "Fasteners",
         "supplier": "Impact bolt",
         "supplier_contact": "Ruan",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Spray door",
+        "supplier": "TWP",
+        "supplier_contact": "Shaun",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
@@ -14284,6 +14296,18 @@
         "status_color": "orange"
       },
       {
+        "component": "PLATE MATERIAL",
+        "supplier": "STEELCORP",
+        "supplier_contact": "MICHAEL",
+        "po_nr": "PO18538",
+        "date_po": "2026-09-09",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
         "component": "STRUCTURAL MATERIAL",
         "supplier": "STEWARTS & LLOYDS",
         "supplier_contact": "PETRUS",
@@ -14328,15 +14352,15 @@
       },
       {
         "component": "RUBBER LINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14519,8 +14543,8 @@
         "component": "OVAL FLAT WASHER",
         "supplier": "TW PROFILE",
         "supplier_contact": "SHAUN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18536",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
