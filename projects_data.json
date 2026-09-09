@@ -13599,9 +13599,9 @@
         "date_po": "2026-08-23",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "Delivery ETA by 11 Sept",
+        "status_color": "purple"
       },
       {
         "component": "Machining on front flange",
@@ -14315,6 +14315,18 @@
     "ac_number": "AC2950, AC2951",
     "items": [
       {
+        "component": "MACHINING",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
         "component": "RUBBER LINING",
         "supplier": "",
         "supplier_contact": "",
@@ -14342,8 +14354,8 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "WAITING ON CLIENT IF BOTH SCREENS NEED REPLACEMENT",
-        "status_color": "yellow"
+        "comments": "",
+        "status_color": "orange"
       },
       {
         "component": "STRUCTURAL MATERIAL (ANGLE & ROD)",
@@ -14514,6 +14526,18 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
+      },
+      {
+        "component": "GREASE SPRAY DOOR",
+        "supplier": "TW PROFILE",
+        "supplier_contact": "SHAUN",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
