@@ -13174,16 +13174,16 @@
         "status_color": "purple"
       },
       {
-        "component": "MACHINING (20-08-2026)",
+        "component": "MACHINING",
         "supplier": "MATLA",
         "supplier_contact": "KOBUS",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18532",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -13607,13 +13607,13 @@
         "component": "Machining on front flange",
         "supplier": "SCOTT TURNER",
         "supplier_contact": "MARTIN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18514",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Rubber lining",
@@ -13800,31 +13800,31 @@
       {
         "component": "MACHINING",
         "supplier": "NESSA",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "LINDA",
+        "po_nr": "PO18527",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "RUBBER LINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
+        "po_nr": "PO18530",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "ROLLING",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "ZUIDERSMA",
+        "supplier_contact": "BASIE",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13867,31 +13867,31 @@
       {
         "component": "MACHINING",
         "supplier": "NESSA",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "LINDA",
+        "po_nr": "PO18527",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "RUBBER LINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
+        "po_nr": "PO18535",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "ROLLING",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "ZUIDERSMA",
+        "supplier_contact": "BASIE",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -13921,15 +13921,15 @@
       },
       {
         "component": "203x203x71kg Beams",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Teichmann steel",
+        "supplier_contact": "Andrea",
+        "po_nr": "PO18516",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "looking for stock",
-        "status_color": "white"
+        "comments": "looking for more stock",
+        "status_color": "orange"
       },
       {
         "component": "Shims",
@@ -14182,13 +14182,13 @@
         "component": "MACHINING",
         "supplier": "RUVIS",
         "supplier_contact": "RUAN",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "white"
+        "comments": "PRICE REVISION REQUEST, QUOTE TOO HIGH",
+        "status_color": "yellow"
       },
       {
         "component": "RUBBER LINING",
@@ -14481,8 +14481,8 @@
       },
       {
         "component": "NEOPRENE GASKET",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -14493,8 +14493,8 @@
       },
       {
         "component": "FELT SEAL",
-        "supplier": "",
-        "supplier_contact": "",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
         "po_nr": "",
         "date_po": "",
         "received": false,
@@ -14509,6 +14509,18 @@
         "supplier_contact": "RUAN",
         "po_nr": "PO18505",
         "date_po": "2026-09-08",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "OVAL FLAT WASHER",
+        "supplier": "TW PROFILE",
+        "supplier_contact": "SHAUN",
+        "po_nr": "WFQ",
+        "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14531,8 +14543,8 @@
         "component": "GREASE SPRAY DOOR",
         "supplier": "TW PROFILE",
         "supplier_contact": "SHAUN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18529",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14579,15 +14591,15 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "DABARESA",
+        "supplier_contact": "CONRAD",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   }
