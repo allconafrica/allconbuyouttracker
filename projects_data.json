@@ -13233,7 +13233,7 @@
         "supplier": "STEELCORP",
         "supplier_contact": "MICHAEL",
         "po_nr": "PO18169",
-        "date_po": "2026-08-13",
+        "date_po": "2026-09-02",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -13246,11 +13246,11 @@
         "supplier_contact": "THEO",
         "po_nr": "PO18134",
         "date_po": "2026-08-11",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -13734,8 +13734,8 @@
         "component": "Fasteners",
         "supplier": "Impact bolt",
         "supplier_contact": "Ruan",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO1565",
+        "date_po": "2026-09-10",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -13784,11 +13784,11 @@
         "supplier_contact": "Jakobus",
         "po_nr": "PO18471",
         "date_po": "2026-09-07",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Breather",
@@ -14393,15 +14393,15 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "DABARESA",
+        "supplier_contact": "CONRAD",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14412,15 +14412,15 @@
     "items": [
       {
         "component": "MACHINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "RUVIS",
+        "supplier_contact": "RUAN",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "RUBBER LINING",
@@ -14479,15 +14479,15 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "ACTIVE PLATE",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "RUVIS",
+        "supplier_contact": "RUAN",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "RUBBER LINING",
@@ -14565,15 +14565,15 @@
       },
       {
         "component": "STRUCTURAL MATERIAL (BEAM)",
-        "supplier": "CHECKING STOCK",
+        "supplier": "STEWARTS / NJR",
         "supplier_contact": "",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "NEOPRENE GASKET",
