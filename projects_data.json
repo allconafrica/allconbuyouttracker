@@ -10244,11 +10244,11 @@
         "supplier_contact": "Michael",
         "po_nr": "PO18306",
         "date_po": "2026-08-25",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -11603,6 +11603,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "Conveyor belt",
+        "supplier": "Conveyor splicing",
+        "supplier_contact": "",
+        "po_nr": "PO18531",
+        "date_po": "2026-09-09",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -12471,6 +12483,18 @@
         "date_received": "",
         "followed_up": false,
         "comments": "order cancelled- to cut inhouse",
+        "status_color": "orange"
+      },
+      {
+        "component": "flingering forming",
+        "supplier": "Active plate",
+        "supplier_contact": "Theo",
+        "po_nr": "PO18533",
+        "date_po": "2026-09-09",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
         "status_color": "orange"
       }
     ]
@@ -13447,7 +13471,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "Partial 9/9",
         "status_color": "orange"
       },
       {
@@ -13564,8 +13588,8 @@
         "component": "Fasteners",
         "supplier": "Impact bolt",
         "supplier_contact": "Ruan",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18542",
+        "date_po": "2026-10-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -13631,13 +13655,13 @@
         "component": "Rubber lining",
         "supplier": "PARM GARAY",
         "supplier_contact": "ALBERT",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18548",
+        "date_po": "2026-09-10",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Rolling",
@@ -13698,13 +13722,13 @@
         "component": "PT100 Bracket",
         "supplier": "Bekker steel",
         "supplier_contact": "Aldo",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18547",
+        "date_po": "2026-10-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Fasteners",
@@ -13772,6 +13796,18 @@
         "supplier_contact": "Jaun",
         "po_nr": "WFQ",
         "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Pad bearing washer retainer rings",
+        "supplier": "Matla",
+        "supplier_contact": "Kobus",
+        "po_nr": "PO18550",
+        "date_po": "2026-09-10",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14258,11 +14294,11 @@
         "supplier_contact": "HEINZ",
         "po_nr": "PO18409",
         "date_po": "2026-09-01",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "RUBBER SEAL (BUTYL & TIVAR)",
@@ -14407,7 +14443,7 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "",
+        "supplier": "ACTIVE PLATE",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14420,14 +14456,14 @@
       {
         "component": "RUBBER LINING",
         "supplier": "PARM GARAY",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "ALBERT",
+        "po_nr": "PO18543",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14469,7 +14505,7 @@
       },
       {
         "component": "STRUCTURAL MATERIAL (ANGLE)",
-        "supplier": "STWEARTS / NJR",
+        "supplier": "STEWARTS / NJR",
         "supplier_contact": "",
         "po_nr": "WFQ",
         "date_po": "",
@@ -14481,7 +14517,7 @@
       },
       {
         "component": "STRUCTURAL MATERIAL (PIPE)",
-        "supplier": "STWEARTS / NJR",
+        "supplier": "STEWARTS / NJR",
         "supplier_contact": "",
         "po_nr": "WFQ",
         "date_po": "",
@@ -14507,25 +14543,25 @@
         "component": "NEOPRENE GASKET",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18541",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "FELT SEAL",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18541",
+        "date_po": "2026-09-09",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "FASTENERS",
@@ -14553,7 +14589,7 @@
       },
       {
         "component": "BRAND PLATE",
-        "supplier": "",
+        "supplier": "NCP FREE ISSUE",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14614,10 +14650,41 @@
         "status_color": "white"
       },
       {
+        "component": "STRUCTURAL MATERIAL",
+        "supplier": "STEWARTS & LLOYDS",
+        "supplier_contact": "PETRUS",
+        "po_nr": "PO18544",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
         "component": "MACHINING",
         "supplier": "DABARESA",
         "supplier_contact": "CONRAD",
         "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "SPA420-001 - PERIPHERAL FELT SEAL",
+    "ac_number": "AC3001",
+    "items": [
+      {
+        "component": "FELT SEAL",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "PO18551",
         "date_po": "",
         "received": false,
         "date_received": "",
