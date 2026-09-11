@@ -9682,6 +9682,18 @@
         "followed_up": true,
         "comments": "RIF",
         "status_color": "purple"
+      },
+      {
+        "component": "Pop riverts & split pins",
+        "supplier": "Impact bolt",
+        "supplier_contact": "Ruan",
+        "po_nr": "PO18584",
+        "date_po": "2026-09-11",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -11382,6 +11394,18 @@
         "date_received": "",
         "followed_up": false,
         "comments": "ETA 11/09",
+        "status_color": "orange"
+      },
+      {
+        "component": "Transport to zuiderma",
+        "supplier": "Livin dream",
+        "supplier_contact": "Christiaan",
+        "po_nr": "PO18586",
+        "date_po": "2026-09-11",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
         "status_color": "orange"
       }
     ]
@@ -14150,6 +14174,18 @@
         "status_color": "white"
       },
       {
+        "component": "NEOPRENE 6MM GASKETS FOR FLANGES",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "PO18587",
+        "date_po": "2026-09-11",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
         "component": "PLATE MATERIAL (800NB FLANGES)",
         "supplier": "BTA PIPE SUPPLIES",
         "supplier_contact": "ALLAN",
@@ -14733,7 +14769,76 @@
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
         "po_nr": "PO18551",
-        "date_po": "",
+        "date_po": "2026-09-10",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MACLEAN - POWERFRAME 977",
+    "ac_number": "AC2937 & AC2940",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "BEKKER STEEL",
+        "supplier_contact": "ALDO",
+        "po_nr": "PO18393",
+        "date_po": "2026-08-31",
+        "received": true,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "Partial 10/9",
+        "status_color": "green"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MACLEAN - EC2 SUB",
+    "ac_number": "AC2938 & AC2941",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "STEEL CORP",
+        "supplier_contact": "MICHAEL",
+        "po_nr": "PO18461",
+        "date_po": "2026-09-04",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MACLEAN - EC2 BOOMS & CS3",
+    "ac_number": "AC2936 & AC2939",
+    "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "BEKKER STEEL",
+        "supplier_contact": "ALDO",
+        "po_nr": "PO18472",
+        "date_po": "2026-09-07",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "BEKKER STEEL",
+        "supplier_contact": "ALDO",
+        "po_nr": "PO18474",
+        "date_po": "2026-09-07",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14749,7 +14854,7 @@
     "items": [
       {
         "component": "Plate material",
-        "supplier": "",
+        "supplier": "Genesis",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14761,7 +14866,7 @@
       },
       {
         "component": "Machining",
-        "supplier": "",
+        "supplier": "Ruvis",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14773,7 +14878,7 @@
       },
       {
         "component": "Rubber lining",
-        "supplier": "",
+        "supplier": "Stetan",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14782,6 +14887,56 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "MARMATO SM - FEED CHUTE SEALS & RETAINER PLATE",
+    "ac_number": "AC2991 BUTYL SEALS  & AC2992 - RETAINER PLATE",
+    "items": [
+      {
+        "component": "Butyl seals",
+        "supplier": "Custom seals",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Retainer plate",
+        "supplier": "Steelcorp or fast flame",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "SNOWY RIVER - FELT SEAL",
+    "ac_number": "AC3002 & AC3003",
+    "items": [
+      {
+        "component": "FELT SEALS",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "PO18585",
+        "date_po": "2026-09-11",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   }
