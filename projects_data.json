@@ -13490,13 +13490,13 @@
         "component": "Flanges & pipe",
         "supplier": "stewarts",
         "supplier_contact": "Jakobus",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18568",
+        "date_po": "2026-09-11",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Rolling angles",
@@ -13772,11 +13772,11 @@
         "supplier_contact": "Michelle",
         "po_nr": "PO18482",
         "date_po": "2026-09-07",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Temp lube pipe system",
@@ -13827,28 +13827,40 @@
         "status_color": "orange"
       },
       {
-        "component": "Pedestal stop block & dowell pin Machining",
-        "supplier": "Dabaressa",
-        "supplier_contact": "Conrad",
-        "po_nr": "",
-        "date_po": "",
+        "component": "Pad securing brackets",
+        "supplier": "Bekker steel",
+        "supplier_contact": "Lelanie",
+        "po_nr": "PO18566",
+        "date_po": "2026-09-11",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
+      },
+      {
+        "component": "Pedestal stop block & dowell pin Machining",
+        "supplier": "Dabaressa",
+        "supplier_contact": "Conrad",
+        "po_nr": "PO18570",
+        "date_po": "2026-09-11",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       },
       {
         "component": "Cap to base bolts",
         "supplier": "Dabaressa",
         "supplier_contact": "Conrad",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18570",
+        "date_po": "2026-09-11",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14012,7 +14024,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "looking for more stock",
+        "comments": "",
         "status_color": "orange"
       },
       {
@@ -14459,11 +14471,11 @@
         "supplier_contact": "MARISKA",
         "po_nr": "PO18495",
         "date_po": "2026-09-07",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "Partial",
+        "status_color": "green"
       },
       {
         "component": "ROLLING",
@@ -14727,6 +14739,49 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "EMERALD MILL26.008 - DE TB INSERT & FE INSERT ADAPTOR PLATE",
+    "ac_number": "AC2965 - DE & AC2966 - FE",
+    "items": [
+      {
+        "component": "Plate material",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Machining",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Rubber lining",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   }
