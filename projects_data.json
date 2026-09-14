@@ -13215,10 +13215,10 @@
         "supplier_contact": "JOHN",
         "po_nr": "PO18198",
         "date_po": "2026-08-17",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "Requested update from CS",
+        "comments": "RIF",
         "status_color": "purple"
       },
       {
@@ -13321,15 +13321,15 @@
       },
       {
         "component": "Drilling & Tapping ball retainer plates",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "Dabaresa",
+        "supplier_contact": "Conrad",
+        "po_nr": "PO18588",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Cone Rolling",
@@ -13375,10 +13375,10 @@
         "supplier_contact": "JOHN",
         "po_nr": "PO18172",
         "date_po": "2026-08-13",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "Requested update from CS",
+        "comments": "RIF",
         "status_color": "purple"
       }
     ]
@@ -13519,7 +13519,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "Partial 11/9",
         "status_color": "orange"
       },
       {
@@ -13657,10 +13657,10 @@
         "supplier_contact": "MARISKA",
         "po_nr": "PO18273",
         "date_po": "2026-08-23",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "Delivery ETA by 11 Sept",
+        "comments": "RIF",
         "status_color": "purple"
       },
       {
@@ -13820,11 +13820,11 @@
         "supplier_contact": "Jaun",
         "po_nr": "PO18553",
         "date_po": "2026-09-10",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Pad bearing washer retainer rings",
@@ -14084,7 +14084,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "Partial 11/9",
         "status_color": "orange"
       },
       {
@@ -14191,11 +14191,11 @@
         "supplier_contact": "ALLAN",
         "po_nr": "PO18416",
         "date_po": "2026-09-10",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14222,11 +14222,11 @@
         "supplier_contact": "RUAN",
         "po_nr": "PO18366",
         "date_po": "2026-08-28",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14588,9 +14588,9 @@
         "status_color": "white"
       },
       {
-        "component": "STRUCTURAL MATERIAL (ANGLE)",
-        "supplier": "STEWARTS / NJR",
-        "supplier_contact": "",
+        "component": "STRUCTURAL MATERIAL (ANGLE & BEAM)",
+        "supplier": "MACSTEEL",
+        "supplier_contact": "LENA",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
@@ -14601,8 +14601,8 @@
       },
       {
         "component": "STRUCTURAL MATERIAL (PIPE)",
-        "supplier": "STEWARTS / NJR",
-        "supplier_contact": "",
+        "supplier": "STEWARTS",
+        "supplier_contact": "PETRUS",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
@@ -14612,9 +14612,9 @@
         "status_color": "orange"
       },
       {
-        "component": "STRUCTURAL MATERIAL (BEAM)",
-        "supplier": "STEWARTS / NJR",
-        "supplier_contact": "",
+        "component": "STRUCTURAL MATERIAL (PIPE)",
+        "supplier": "MACSTEEL",
+        "supplier_contact": "SAMUEL",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
@@ -14672,8 +14672,8 @@
         "status_color": "orange"
       },
       {
-        "component": "BRAND PLATE",
-        "supplier": "NCP FREE ISSUE",
+        "component": "ROLLING",
+        "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14792,7 +14792,7 @@
         "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "Partial 10/9",
+        "comments": "Partial 10/9 / 11/9",
         "status_color": "green"
       }
     ]
@@ -14898,14 +14898,14 @@
       {
         "component": "Butyl seals",
         "supplier": "Custom seals",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "John",
+        "po_nr": "PO18590",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Retainer plate",
@@ -14923,7 +14923,7 @@
   },
   {
     "owner": "NORMAN",
-    "project_name": "SNOWY RIVER - FELT SEAL",
+    "project_name": "SNOWY RIVER MIL25.002 - FELT SEAL",
     "ac_number": "AC3002 & AC3003",
     "items": [
       {
@@ -14932,6 +14932,61 @@
         "supplier_contact": "JOHN",
         "po_nr": "PO18585",
         "date_po": "2026-09-11",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "MARMATO SM & BM SPA26.363 - FELT SEALS",
+    "ac_number": "AC3005 (GGG SM), AC3006 (PINION SM), AC3007 (GGG BM), AC3008 (PINION SM)",
+    "items": [
+      {
+        "component": "GGG SM FELT SEAL",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "PINION SM FELT SEAL",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "GGG BM FELT SEAL",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "PINION BM FELT SEAL",
+        "supplier": "CUSTOM SEAL",
+        "supplier_contact": "JOHN",
+        "po_nr": "WFQ",
+        "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
