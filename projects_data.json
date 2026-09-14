@@ -11402,11 +11402,11 @@
         "supplier_contact": "Christiaan",
         "po_nr": "PO18586",
         "date_po": "2026-09-11",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -12170,9 +12170,9 @@
         "date_po": "2026-06-23",
         "received": false,
         "date_received": "",
-        "followed_up": false,
+        "followed_up": true,
         "comments": "",
-        "status_color": "orange"
+        "status_color": "purple"
       },
       {
         "component": "STRESS RELIEF",
@@ -12180,11 +12180,11 @@
         "supplier_contact": "TIRUS",
         "po_nr": "PO18509",
         "date_po": "2026-09-08",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14591,8 +14591,8 @@
         "component": "STRUCTURAL MATERIAL (ANGLE & BEAM)",
         "supplier": "MACSTEEL",
         "supplier_contact": "LENA",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18600",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14615,8 +14615,8 @@
         "component": "STRUCTURAL MATERIAL (PIPE)",
         "supplier": "MACSTEEL",
         "supplier_contact": "SAMUEL",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18599",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14808,11 +14808,11 @@
         "supplier_contact": "MICHAEL",
         "po_nr": "PO18461",
         "date_po": "2026-09-04",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "orange"
+        "status_color": "green"
       }
     ]
   },
@@ -14856,13 +14856,13 @@
         "component": "Plate material",
         "supplier": "Genesis",
         "supplier_contact": "",
-        "po_nr": "",
+        "po_nr": "WFA",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Machining",
@@ -14879,14 +14879,14 @@
       {
         "component": "Rubber lining",
         "supplier": "Stetan",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "Jarryd",
+        "po_nr": "PO18603",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14949,8 +14949,8 @@
         "component": "GGG SM FELT SEAL",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18602",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14961,8 +14961,8 @@
         "component": "PINION SM FELT SEAL",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18602",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14973,8 +14973,8 @@
         "component": "GGG BM FELT SEAL",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18602",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14985,8 +14985,8 @@
         "component": "PINION BM FELT SEAL",
         "supplier": "CUSTOM SEAL",
         "supplier_contact": "JOHN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18602",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
