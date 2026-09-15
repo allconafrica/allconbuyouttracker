@@ -11357,7 +11357,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "material delivered to Zuidersma 15/09",
         "status_color": "white"
       },
       {
@@ -11407,6 +11407,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "Temp sensor holders",
+        "supplier": "Dabaresa",
+        "supplier_contact": "Conrad",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "send to dabaesa when cutting in done 15/09",
+        "status_color": "white"
       }
     ]
   },
@@ -13337,11 +13349,11 @@
         "supplier_contact": "Conrad",
         "po_nr": "PO18588",
         "date_po": "2026-09-14",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "orange"
+        "status_color": "green"
       },
       {
         "component": "Cone Rolling",
@@ -14407,6 +14419,18 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      },
+      {
+        "component": "VRN500 WEARING ITEM 1",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   },
@@ -15014,7 +15038,7 @@
       },
       {
         "component": "Retainer plate",
-        "supplier": "Steelcorp or fast flame",
+        "supplier": "Steelcorp",
         "supplier_contact": "Michael",
         "po_nr": "PO18618",
         "date_po": "2026-09-15",
@@ -15040,7 +15064,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "Malan to nest",
         "status_color": "white"
       },
       {
