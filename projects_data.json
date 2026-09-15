@@ -10601,11 +10601,11 @@
         "supplier_contact": "Michelle",
         "po_nr": "PO18504",
         "date_po": "",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "orange"
+        "status_color": "green"
       },
       {
         "component": "Grating",
@@ -11634,11 +11634,11 @@
         "supplier_contact": "",
         "po_nr": "PO18531",
         "date_po": "2026-09-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -12515,11 +12515,11 @@
         "supplier_contact": "Theo",
         "po_nr": "PO18533",
         "date_po": "2026-09-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14057,11 +14057,11 @@
         "supplier_contact": "Andrea",
         "po_nr": "PO18516",
         "date_po": "2026-09-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Shims",
@@ -14507,11 +14507,11 @@
         "supplier_contact": "MADELEIN",
         "po_nr": "PO18500",
         "date_po": "2026-09-08",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "STRUCTURAL MATERIAL (ANGLE & ROD)",
@@ -14574,11 +14574,11 @@
         "supplier_contact": "SHAUN",
         "po_nr": "PO18496",
         "date_po": "2026-09-07",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14603,7 +14603,7 @@
         "component": "STRUCTURAL MATERIAL (ANGLE & BEAM)",
         "supplier": "MACSTEEL",
         "supplier_contact": "LENA",
-        "po_nr": "PO18600",
+        "po_nr": "PO18600 / PO18616",
         "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
@@ -14665,11 +14665,11 @@
         "supplier_contact": "RUAN",
         "po_nr": "PO18505",
         "date_po": "2026-09-08",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "OVAL FLAT WASHER",
@@ -14685,15 +14685,15 @@
       },
       {
         "component": "ROLLING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
+        "supplier": "ZUIDERSMA",
+        "supplier_contact": "BASIE",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "GREASE SPRAY DOOR",
@@ -14751,11 +14751,11 @@
         "supplier_contact": "PETRUS",
         "po_nr": "PO18544",
         "date_po": "",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "MACHINING",
@@ -14923,13 +14923,13 @@
         "component": "Fasteners",
         "supplier": "Impact bolt",
         "supplier_contact": "Ruan",
-        "po_nr": "",
-        "date_po": "",
+        "po_nr": "PO18614",
+        "date_po": "2026-09-15",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -15015,6 +15015,25 @@
       {
         "component": "Retainer plate",
         "supplier": "Steelcorp or fast flame",
+        "supplier_contact": "Michael",
+        "po_nr": "PO18618",
+        "date_po": "2026-09-15",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "MONGBWALU - DE INSERT TROMMEL ADAPTOR",
+    "ac_number": "AC2995",
+    "items": [
+      {
+        "component": "Plate material",
+        "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -15023,6 +15042,30 @@
         "followed_up": false,
         "comments": "",
         "status_color": "white"
+      },
+      {
+        "component": "Machining",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Rubber lining",
+        "supplier": "Stetan",
+        "supplier_contact": "Steve",
+        "po_nr": "PO18592",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
