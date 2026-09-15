@@ -13201,7 +13201,19 @@
         "component": "MATERIAL",
         "supplier": "TW PROFILE",
         "supplier_contact": "SHAUN",
-        "po_nr": "PO18178",
+        "po_nr": "PO18613",
+        "date_po": "2026-09-15",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "MATERIAL",
+        "supplier": "TW PROFILE",
+        "supplier_contact": "SHAUN",
+        "po_nr": "PO18178 (OLD)",
         "date_po": "2026-08-13",
         "received": true,
         "date_received": "",
@@ -14314,13 +14326,13 @@
         "component": "MACHINING",
         "supplier": "RUVIS",
         "supplier_contact": "RUAN",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18581",
+        "date_po": "2026-09-11",
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "PRICE REVISION REQUEST, QUOTE TOO HIGH",
-        "status_color": "yellow"
+        "comments": "",
+        "status_color": "orange"
       },
       {
         "component": "RUBBER LINING",
@@ -14441,15 +14453,15 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "DABARESA",
-        "supplier_contact": "CONRAD",
+        "supplier": "DABARESA / RUVIS",
+        "supplier_contact": "",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "PRICE EXTREMELY HIGH - WAITING ON RUVIS",
+        "status_color": "yellow"
       }
     ]
   },
@@ -14603,8 +14615,8 @@
         "component": "STRUCTURAL MATERIAL (PIPE)",
         "supplier": "STEWARTS",
         "supplier_contact": "PETRUS",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18610",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -14747,15 +14759,15 @@
       },
       {
         "component": "MACHINING",
-        "supplier": "DABARESA",
-        "supplier_contact": "CONRAD",
+        "supplier": "DABARESA / RUVIS",
+        "supplier_contact": "",
         "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "PRICE TOO HIGH - WAITING ON RUVIS",
+        "status_color": "yellow"
       }
     ]
   },
@@ -14882,6 +14894,99 @@
         "supplier_contact": "Jarryd",
         "po_nr": "PO18603",
         "date_po": "2026-09-14",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "EMERALD - LS COUPLING GUARD & PINION EXT GUARD",
+    "ac_number": "AC2975 LS COUP GUARD & AC2976 PINION EXT",
+    "items": [
+      {
+        "component": "Structural material",
+        "supplier": "Stewarts",
+        "supplier_contact": "Jakobus",
+        "po_nr": "PO18608",
+        "date_po": "2026-09-15",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Fasteners",
+        "supplier": "Impact bolt",
+        "supplier_contact": "Ruan",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "MONGBWALU - HIGH , LOW & PINION GUARDS",
+    "ac_number": "AC2979 HS GUARD & AC2980 LS GUARD  AC2981 PINION EXT",
+    "items": [
+      {
+        "component": "Structural material",
+        "supplier": "Stewarts",
+        "supplier_contact": "Jakobus",
+        "po_nr": "PO18611",
+        "date_po": "2026-09-15",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Fasteners",
+        "supplier": "Impact bolt",
+        "supplier_contact": "Ruan",
+        "po_nr": "PO18612",
+        "date_po": "2026-09-15",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "MARMATO BM - SEAL WEARING & BUTYL SEALS",
+    "ac_number": "AC2988 seal wearing ,  AC2989 Butyl , AC2990 seal retainer",
+    "items": [
+      {
+        "component": "Seal wearing & seal retainer plate",
+        "supplier": "Steel corp",
+        "supplier_contact": "Michael",
+        "po_nr": "PO18606",
+        "date_po": "2026-09-13",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Butyl seals",
+        "supplier": "Custom seals",
+        "supplier_contact": "John",
+        "po_nr": "PO18607",
+        "date_po": "2026-09-13",
         "received": false,
         "date_received": "",
         "followed_up": false,
