@@ -8225,11 +8225,11 @@
         "supplier_contact": "Basie",
         "po_nr": "PO18625",
         "date_po": "2026-09-16",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
