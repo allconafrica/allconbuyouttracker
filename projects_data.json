@@ -8218,6 +8218,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "Rolling raincovers",
+        "supplier": "Zuiderma",
+        "supplier_contact": "Basie",
+        "po_nr": "PO18625",
+        "date_po": "2026-09-16",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -14421,6 +14433,18 @@
         "status_color": "orange"
       },
       {
+        "component": "MACHINING",
+        "supplier": "NESSA",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
         "component": "VRN500 WEARING ITEM 1",
         "supplier": "",
         "supplier_contact": "",
@@ -14457,11 +14481,11 @@
         "supplier_contact": "MICHAEL",
         "po_nr": "PO18538",
         "date_po": "2026-09-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "STRUCTURAL MATERIAL",
@@ -14641,11 +14665,11 @@
         "supplier_contact": "PETRUS",
         "po_nr": "PO18610",
         "date_po": "2026-09-14",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "Partial 15/9",
+        "status_color": "green"
       },
       {
         "component": "STRUCTURAL MATERIAL (PIPE)",
@@ -14937,11 +14961,11 @@
         "supplier_contact": "Jakobus",
         "po_nr": "PO18608",
         "date_po": "2026-09-15",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "Partial 15/9",
+        "status_color": "green"
       },
       {
         "component": "Fasteners",
@@ -14968,11 +14992,11 @@
         "supplier_contact": "Jakobus",
         "po_nr": "PO18611",
         "date_po": "2026-09-15",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "Partial 15/9",
+        "status_color": "green"
       },
       {
         "component": "Fasteners",
