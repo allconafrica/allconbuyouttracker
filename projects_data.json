@@ -10263,6 +10263,18 @@
         "status_color": "orange"
       },
       {
+        "component": "Rubber lininng",
+        "supplier": "Stetan",
+        "supplier_contact": "Steve",
+        "po_nr": "PO18626",
+        "date_po": "2026-09-16",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
         "component": "Flingerings",
         "supplier": "steelcorp",
         "supplier_contact": "Michael",
@@ -13154,6 +13166,18 @@
       },
       {
         "component": "Wheel plumber block bearings + housing",
+        "supplier": "Bearings 2000",
+        "supplier_contact": "Neil",
+        "po_nr": "PO18639",
+        "date_po": "2026-09-16",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Wheel plumber block bearings + housing",
         "supplier": "Citi bearings",
         "supplier_contact": "Leonor",
         "po_nr": "PO18142",
@@ -13161,7 +13185,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "cancelled",
         "status_color": "orange"
       },
       {
@@ -14735,8 +14759,8 @@
         "component": "ROLLING",
         "supplier": "ZUIDERSMA",
         "supplier_contact": "BASIE",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18646",
+        "date_po": "2026-09-16",
         "received": false,
         "date_received": "",
         "followed_up": false,
