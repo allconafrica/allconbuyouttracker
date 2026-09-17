@@ -13394,14 +13394,14 @@
       {
         "component": "Cone Rolling",
         "supplier": "Rollfab",
-        "supplier_contact": "WFQ",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "Daan",
+        "po_nr": "PO18659",
+        "date_po": "2026-09-17",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -15128,16 +15128,16 @@
     "ac_number": "AC2995",
     "items": [
       {
-        "component": "Plate material",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "component": "Plate material item 1 & 3",
+        "supplier": "Steelcorp",
+        "supplier_contact": "Michael",
+        "po_nr": "PO18655",
+        "date_po": "2026-09-17",
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "Malan to nest",
-        "status_color": "white"
+        "comments": "",
+        "status_color": "orange"
       },
       {
         "component": "Machining",
@@ -15156,12 +15156,24 @@
         "supplier": "Stetan",
         "supplier_contact": "Steve",
         "po_nr": "PO18592",
-        "date_po": "",
+        "date_po": "2026-09-14",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      },
+      {
+        "component": "Rolling 30thk plate",
+        "supplier": "Active plate",
+        "supplier_contact": "Theo",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   },
@@ -15231,6 +15243,25 @@
         "supplier_contact": "JOHN",
         "po_nr": "PO18602",
         "date_po": "2026-09-14",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORLENE",
+    "project_name": "SNOWY RIVERS - FEED SPOUT NEOPRENE SEALS",
+    "ac_number": "AC3004",
+    "items": [
+      {
+        "component": "Rubber seal item 3",
+        "supplier": "Custom seal",
+        "supplier_contact": "John",
+        "po_nr": "WFQ",
+        "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
