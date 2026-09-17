@@ -13466,10 +13466,10 @@
         "supplier_contact": "SHAUN",
         "po_nr": "PO18174",
         "date_po": "2026-08-13",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "Requested update from TW",
+        "comments": "RIF",
         "status_color": "purple"
       }
     ]
@@ -13579,7 +13579,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "Partial 11/9",
+        "comments": "RIF",
         "status_color": "orange"
       },
       {
@@ -13674,11 +13674,11 @@
         "supplier_contact": "Ruan",
         "po_nr": "PO18542",
         "date_po": "2026-10-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Spray door",
@@ -13808,11 +13808,11 @@
         "supplier_contact": "Aldo",
         "po_nr": "PO18547",
         "date_po": "2026-10-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Fasteners",
@@ -14344,6 +14344,30 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      },
+      {
+        "component": "Fasteners",
+        "supplier": "Impact bolt",
+        "supplier_contact": "Ruan",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      },
+      {
+        "component": "Structural material",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   },
@@ -14594,7 +14618,7 @@
         "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "Partial",
+        "comments": "RIF",
         "status_color": "green"
       },
       {
@@ -14680,7 +14704,7 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
+        "comments": "Partial 16/9",
         "status_color": "orange"
       },
       {
@@ -14701,11 +14725,11 @@
         "supplier_contact": "SAMUEL",
         "po_nr": "PO18599",
         "date_po": "2026-09-14",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "NEOPRENE GASKET",
@@ -14749,11 +14773,11 @@
         "supplier_contact": "SHAUN",
         "po_nr": "PO18536",
         "date_po": "2026-09-09",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "ROLLING",
@@ -14792,11 +14816,11 @@
         "supplier_contact": "SHAUN",
         "po_nr": "PO18457",
         "date_po": "2026-09-03",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14876,7 +14900,7 @@
         "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "Partial 10/9 / 11/9",
+        "comments": "RIF",
         "status_color": "green"
       }
     ]
