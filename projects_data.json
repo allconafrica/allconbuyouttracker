@@ -7584,11 +7584,11 @@
         "supplier_contact": "Steve",
         "po_nr": "PO16533",
         "date_po": "2026-03-23",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -9229,11 +9229,11 @@
         "supplier_contact": "Steve",
         "po_nr": "PO16687",
         "date_po": "2026-04-08",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Fasteners",
@@ -13158,11 +13158,11 @@
         "supplier_contact": "Donna",
         "po_nr": "PO18251",
         "date_po": "2026-08-20",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
         "comments": "RIF",
-        "status_color": "orange"
+        "status_color": "green"
       },
       {
         "component": "Wheel plumber block bearings + housing",
@@ -13170,11 +13170,11 @@
         "supplier_contact": "Neil",
         "po_nr": "PO18639",
         "date_po": "2026-09-16",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "Wheel plumber block bearings + housing",
@@ -13335,6 +13335,30 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "MACHINING",
+        "supplier": "RUVIS",
+        "supplier_contact": "",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "RUBBER LINING",
+        "supplier": "STETAN / PARM GARAY",
+        "supplier_contact": "",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -13481,15 +13505,15 @@
     "items": [
       {
         "component": "RUBBER LINING",
-        "supplier": "",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
+        "po_nr": "PO18661",
+        "date_po": "2026-09-17",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -15052,11 +15076,11 @@
         "supplier_contact": "Ruan",
         "po_nr": "PO18612",
         "date_po": "2026-09-15",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
