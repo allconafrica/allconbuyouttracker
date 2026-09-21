@@ -9725,11 +9725,11 @@
         "supplier_contact": "Ruan",
         "po_nr": "PO18584",
         "date_po": "2026-09-11",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -14726,7 +14726,7 @@
       },
       {
         "component": "ROLLING",
-        "supplier": "ZUIDERSMA",
+        "supplier": "",
         "supplier_contact": "",
         "po_nr": "",
         "date_po": "",
@@ -14754,6 +14754,18 @@
         "supplier_contact": "ALBERT",
         "po_nr": "PO18557",
         "date_po": "2026-09-09",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "STRIPPING OLD RUBBER LINING",
+        "supplier": "PARM GARAY",
+        "supplier_contact": "ALBERT",
+        "po_nr": "PO18683",
+        "date_po": "2026-09-21",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -15038,11 +15050,11 @@
         "supplier_contact": "ALDO",
         "po_nr": "PO18472",
         "date_po": "2026-09-07",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       },
       {
         "component": "PLATE MATERIAL",
@@ -15050,11 +15062,11 @@
         "supplier_contact": "ALDO",
         "po_nr": "PO18474",
         "date_po": "2026-09-07",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -15124,11 +15136,11 @@
         "supplier_contact": "Ruan",
         "po_nr": "PO18614",
         "date_po": "2026-09-15",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
