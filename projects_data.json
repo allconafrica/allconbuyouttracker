@@ -5396,6 +5396,30 @@
         "status_color": "green"
       },
       {
+        "component": "Washers",
+        "supplier": "fast flame",
+        "supplier_contact": "Heinz",
+        "po_nr": "PO18663",
+        "date_po": "2026-09-18",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Washer rubber",
+        "supplier": "stetan",
+        "supplier_contact": "Steve",
+        "po_nr": "PO18657",
+        "date_po": "2026-09-17",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
         "component": "Load test on lifting lugs",
         "supplier": "Accord lifting",
         "supplier_contact": "",
@@ -13621,14 +13645,14 @@
       {
         "component": "M12 Rivnut",
         "supplier": "Impact  bolt",
-        "supplier_contact": "",
-        "po_nr": "",
-        "date_po": "",
+        "supplier_contact": "Ruan",
+        "po_nr": "PO18673",
+        "date_po": "2026-09-18",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       }
     ]
   },
@@ -14373,13 +14397,13 @@
         "component": "Fasteners",
         "supplier": "Impact bolt",
         "supplier_contact": "Ruan",
-        "po_nr": "",
+        "po_nr": "WFQ",
         "date_po": "",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
-        "status_color": "white"
+        "status_color": "orange"
       },
       {
         "component": "Structural material",
@@ -14531,6 +14555,49 @@
     ]
   },
   {
+    "owner": "NORLENE",
+    "project_name": "WEILY - CAST-IN ITEMS & SLEVES",
+    "ac_number": "AC2909",
+    "items": [
+      {
+        "component": "Plate material",
+        "supplier": "Genesis",
+        "supplier_contact": "Annelise",
+        "po_nr": "PO18511",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Structural material",
+        "supplier": "Stewarts",
+        "supplier_contact": "Jakobus",
+        "po_nr": "PO18672",
+        "date_po": "2026-09-18",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
+      {
+        "component": "Bending",
+        "supplier": "Active plate",
+        "supplier_contact": "Theo",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
+      }
+    ]
+  },
+  {
     "owner": "NORMAN",
     "project_name": "MIL26.006-017 BASEPLATE",
     "ac_number": "AC2910, AC2911, AC2912, AC2913, AC2914, AC2915",
@@ -14590,6 +14657,18 @@
     "project_name": "MIL26.006 - DE INSERT & FE ADAPTOR PLATES",
     "ac_number": "AC2950, AC2951",
     "items": [
+      {
+        "component": "PLATE MATERIAL",
+        "supplier": "GENESIS",
+        "supplier_contact": "ANNELIZE",
+        "po_nr": "PO18660",
+        "date_po": "2026-09-18",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
+      },
       {
         "component": "MACHINING",
         "supplier": "RUVIS",
@@ -14886,8 +14965,8 @@
         "received": false,
         "date_received": "",
         "followed_up": false,
-        "comments": "PRICE TOO HIGH - WAITING ON RUVIS",
-        "status_color": "yellow"
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -14987,9 +15066,9 @@
       {
         "component": "Plate material",
         "supplier": "Genesis",
-        "supplier_contact": "",
-        "po_nr": "WFA",
-        "date_po": "",
+        "supplier_contact": "ANNELIZE",
+        "po_nr": "PO18660",
+        "date_po": "2026-09-18",
         "received": false,
         "date_received": "",
         "followed_up": false,
@@ -15284,13 +15363,32 @@
         "component": "Rubber seal item 3",
         "supplier": "Custom seal",
         "supplier_contact": "John",
-        "po_nr": "WFQ",
-        "date_po": "",
+        "po_nr": "PO18669",
+        "date_po": "2026-09-18",
         "received": false,
         "date_received": "",
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      }
+    ]
+  },
+  {
+    "owner": "NORMAN",
+    "project_name": "KUBADA MIL25.007-117 - TB SLIDING FRAME",
+    "ac_number": "AC3010",
+    "items": [
+      {
+        "component": "STRUCTURAL MATERIAL",
+        "supplier": "",
+        "supplier_contact": "",
+        "po_nr": "",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "white"
       }
     ]
   }
