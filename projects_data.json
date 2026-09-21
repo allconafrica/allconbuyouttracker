@@ -14649,6 +14649,18 @@
         "followed_up": false,
         "comments": "PRICE EXTREMELY HIGH - WAITING ON RUVIS",
         "status_color": "yellow"
+      },
+      {
+        "component": "ADJUSTMENT PAD DRILLING",
+        "supplier": "DABARESA",
+        "supplier_contact": "CONRAD",
+        "po_nr": "PO18695",
+        "date_po": "2026-09-21",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -14979,6 +14991,18 @@
         "followed_up": false,
         "comments": "",
         "status_color": "orange"
+      },
+      {
+        "component": "ADJUSTMENT PAD DRILLING",
+        "supplier": "DABARESA",
+        "supplier_contact": "CONRAD",
+        "po_nr": "PO18695",
+        "date_po": "2026-09-21",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
@@ -15017,6 +15041,18 @@
         "followed_up": false,
         "comments": "RIF",
         "status_color": "green"
+      },
+      {
+        "component": "STRUCTURAL MATERIAL",
+        "supplier": "STWEARTS & LLOYDS",
+        "supplier_contact": "PETRUS",
+        "po_nr": "WFQ",
+        "date_po": "",
+        "received": false,
+        "date_received": "",
+        "followed_up": false,
+        "comments": "",
+        "status_color": "orange"
       }
     ]
   },
