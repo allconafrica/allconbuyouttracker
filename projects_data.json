@@ -12022,10 +12022,10 @@
         "supplier_contact": "Michelle",
         "po_nr": "PO17852",
         "date_po": "2026-07-15",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": true,
-        "comments": "",
+        "comments": "RIF",
         "status_color": "purple"
       },
       {
@@ -13667,11 +13667,11 @@
         "supplier_contact": "Conrad",
         "po_nr": "PO18510",
         "date_po": "2026-09-08",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -15265,11 +15265,11 @@
         "supplier_contact": "Michael",
         "po_nr": "PO18618",
         "date_po": "2026-09-15",
-        "received": false,
+        "received": true,
         "date_received": "",
         "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "comments": "RIF",
+        "status_color": "green"
       }
     ]
   },
@@ -15286,9 +15286,9 @@
         "date_po": "2026-09-17",
         "received": false,
         "date_received": "",
-        "followed_up": false,
-        "comments": "",
-        "status_color": "orange"
+        "followed_up": true,
+        "comments": "RIF",
+        "status_color": "purple"
       },
       {
         "component": "Machining",
